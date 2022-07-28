@@ -1,0 +1,11 @@
+{
+  "name": "Psilocybin",
+  "colors": [
+    "3dc43d",
+    "2c802c"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_psilocybin"
+  },
+  "inUltimateSingularity": true
+}

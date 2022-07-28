@@ -1,0 +1,11 @@
+{
+  "name": "Ammonia",
+  "colors": [
+    "3468d8",
+    "254892"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_ammonia"
+  },
+  "inUltimateSingularity": true
+}

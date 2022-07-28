@@ -1,0 +1,45 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "minecraft:misc",
+  "input": {
+    "item": "minecraft:light_blue_concrete"
+  },
+  "output": {
+    "rolls": 1,
+    "relativeProbability": true,
+    "groups": [
+      {
+        "probability": 10.0,
+        "stacks": [
+          {
+            "item": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "probability": 10.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_niobium"
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_germanium"
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_tungsten"
+          }
+        ]
+      }
+    ]
+  }
+}

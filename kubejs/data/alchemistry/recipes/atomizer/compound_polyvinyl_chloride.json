@@ -1,0 +1,12 @@
+{
+    "type": "alchemistry:atomizer",
+    "group": "minecraft:misc",
+    "input": {
+      "fluid": "industrialforegoing:latex",
+      "amount": 500
+    },
+    "result": {
+      "item": "chemlib:compound_polyvinyl_chloride",
+      "count": 8
+    }
+  }

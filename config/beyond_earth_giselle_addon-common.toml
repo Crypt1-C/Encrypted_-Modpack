@@ -1,0 +1,74 @@
+
+[items]
+
+	[items.oxygen_can]
+		oxygenCapacity = 24000
+		oxygenTransfer = 256
+
+[machines]
+
+	[machines.fuel_loader]
+		fluidCapacity = 8000
+		fluidTransfer = 256
+		#blocks from FuelLoader to each direction
+		workingRange = 2
+
+	[machines.gravity_normalizer]
+		#final energy usage = 'base' + range * 'perRange'
+		energyUsingBase = 0
+		energyUsingPerRange = 1
+
+[enchantments]
+
+	[enchantments.common]
+
+		[enchantments.common.tooltip]
+			#show tooltip on THIS mod's enchanted book
+			enabled = true
+			#tooltip will don't show when 'Enchantment Descriptions' or 'CoFH Core' installed
+			#but, if this set 'true' show tooltip with ignore that mods
+			ignore = false
+
+	[enchantments.space_breathing]
+		energyUsing = 10
+		oxygenDuration = 4
+
+	[enchantments.gravity_normalizing]
+		energyUsing = 10
+
+	[enchantments.space_fire_proof]
+		energyUsing = 10
+
+	[enchantments.venus_acid_proof]
+		energyUsing = 10
+
+[compats]
+
+	[compats.mekanism]
+
+		[compats.mekanism.module_space_breathing_unit]
+			#Duration of provided oxygen (oxygen provide interval)
+			oxygenDuration = 4
+			#Energy usage when provide Beyond Earth oxygen to player in space
+			energyUsing = 10
+			#Energy usage per mb when produce Mekanism oxygen to player in water, rain
+			energyUsingProduce = 200
+
+		[compats.mekanism.module_space_fire_proof_unit]
+			#Energy usage when prevent fire every tick in Beyond Earth hot planets (e.g. Venus, Mercury)
+			energyUsing = 10
+
+		[compats.mekanism.module_venus_acid_proof_unit]
+			#Energy usage when prevent acid rain damage every tick in Beyond Earth venus
+			energyUsing = 10
+
+		[compats.mekanism.module_space_gravity_normalizing_unit]
+			#Energy usage when normalizing gravity every tick in Beyond Earth dimensions
+			energyUsing = 10
+
+		[compats.mekanism.module_gravitational_modulating_unit]
+			#Can normalize gravity instead module_space_gravity_normalizing_unit
+			normalizable = true
+			#Energy usage when normalizing gravity every tick in Beyond Earth dimensions
+			energyUsing = 10
+

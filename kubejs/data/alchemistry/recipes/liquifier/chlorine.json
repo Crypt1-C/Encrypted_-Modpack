@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "minecraft:misc",
+  "ingredient": {
+    "item": "chemlib:element_chlorine"
+  },
+  "inputCount": 16,
+  "result": {
+    "fluid": "mekanism:chlorine",
+    "amount": 1000
+  }
+}

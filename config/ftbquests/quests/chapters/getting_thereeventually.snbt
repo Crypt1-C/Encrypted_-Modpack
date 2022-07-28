@@ -1,0 +1,265 @@
+{
+	id: "5AE7F64F40A4BBFB"
+	group: "72F9B62EED0FC7BC"
+	order_index: 2
+	filename: "getting_thereeventually"
+	title: "Getting there...Eventually"
+	icon: "allthemodium:other_vibranium_ore"
+	subtitle: ["Eventually..."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.25d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "hard as obsidian !"
+			description: ["Can be made in The Chemical Combiner"]
+			dependencies: ["45F9F7691B5C82E1"]
+			size: 1.5d
+			id: "40CA56CFA5D73AA2"
+			tasks: [{
+				id: "621EAE2D3EC4E706"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "75C81D4E6D4E0B46"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 2
+				}
+				{
+					id: "6BB8775856948E9A"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Visit The Nether"
+			icon: "minecraft:crying_obsidian"
+			x: 3.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "Simply Hell "
+			dependencies: ["1CE5BA6E10F229FE"]
+			size: 1.5d
+			id: "53EED331EF4B4736"
+			tasks: [{
+				id: "041649E54EFAD4A1"
+				type: "checkmark"
+				title: "Done"
+			}]
+			rewards: [
+				{
+					id: "0E7030DE874024E1"
+					type: "item"
+					item: "minecraft:netherrack"
+					count: 16
+				}
+				{
+					id: "327431E61748A43D"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			description: [
+				"To enter the dimension:"
+				""
+				"1. Place block and stand on top of it"
+				"2. [Crouch + Right click] the portal block "
+				""
+				"Enjoy Your Vacation :D"
+			]
+			dependencies: ["08A24DB287339185"]
+			id: "2F1DC91FBD57B516"
+			tasks: [{
+				id: "0F70BEE3E79DA19D"
+				type: "item"
+				item: "jamd:mine_portal_block"
+			}]
+			rewards: [{
+				id: "6FC3EB67FFBD94D5"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["2474F24723372722"]
+			id: "08A24DB287339185"
+			tasks: [{
+				id: "6D5D1D1BB4A38A9B"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FCE8726F4AEBE41"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			subtitle: "gate to the end "
+			description: [
+				"NOTE! :"
+				""
+				"Make sure to stand in the middle while placing end portal blocks arround you or the portal won't be valid and thus won't activate "
+			]
+			dependencies: ["6CCCEFF4688CF8A7"]
+			id: "50EFC13BE0EF7CBA"
+			tasks: [{
+				id: "06F3AE39E0789166"
+				type: "item"
+				item: "minecraft:end_portal_frame"
+			}]
+			rewards: [{
+				id: "105AB7CF8D634096"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "eyes from up above"
+			dependencies: ["40CA56CFA5D73AA2"]
+			id: "6CCCEFF4688CF8A7"
+			tasks: [{
+				id: "379F51FC104F8E4B"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "0A70E979C66169EE"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 4
+				}
+				{
+					id: "5FAB7957B8D50A4D"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Visit The End Diemension"
+			icon: "minecraft:end_crystal"
+			x: 5.0d
+			y: 0.5d
+			shape: "square"
+			subtitle: "The end but not really"
+			dependencies: ["50EFC13BE0EF7CBA"]
+			size: 1.25d
+			id: "160D8B5B1B66E612"
+			tasks: [{
+				id: "6758D56CAC4D0C6A"
+				type: "checkmark"
+				title: "Done"
+			}]
+			rewards: [
+				{
+					id: "3E139B60EFBB43FA"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+				{
+					id: "69DE1BA8A721114A"
+					type: "item"
+					item: "quark:dragon_scale"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Basically Carbon"
+			description: ["Diamonds are Compressed Carbon right ?"]
+			dependencies: ["40CA56CFA5D73AA2"]
+			id: "2474F24723372722"
+			tasks: [{
+				id: "2497D75A3FC78636"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "2229B4873C39547B"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "779B910D881705D7"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			subtitle: "you mean flint and iron*"
+			dependencies: ["40CA56CFA5D73AA2"]
+			id: "1CE5BA6E10F229FE"
+			tasks: [{
+				id: "18BA4EE2DB6D9D24"
+				type: "item"
+				item: {
+					id: "minecraft:flint_and_steel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Visit The Mining Dimension"
+			icon: "allthemodium:other_vibranium_ore"
+			x: 7.0d
+			y: -1.0d
+			shape: "circle"
+			subtitle: "oooo ores baby"
+			dependencies: ["2F1DC91FBD57B516"]
+			size: 1.5d
+			id: "321D65BF74801165"
+			tasks: [{
+				id: "08C982230856A8B3"
+				type: "checkmark"
+				title: "Done"
+			}]
+			rewards: [
+				{
+					id: "537EB4701C566D55"
+					type: "item"
+					item: "allthemodium:allthemodium_ore"
+				}
+				{
+					id: "1BD50DBFE2C41742"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+	]
+}

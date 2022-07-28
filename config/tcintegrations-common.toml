@@ -1,0 +1,3 @@
+#Enables bronze recipe. 3 copper + 1 quartz = 4 bronze
+ENABLE_BRONZE_RECIPE = true
+

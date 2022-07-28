@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  input_string = video:config/fancymenu/animations/loop_menu.mp4;islocal:true;loop:false;volume:100;
+  action = api:custombackground
+  type_identifier = fancymenu_extension:video_background
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+

@@ -1,0 +1,18 @@
+{
+    "block.minecraft.black_concrete": "Black Simulation_Block",
+    "block.minecraft.red_concrete": "Red Simulation_Block",
+    "block.minecraft.green_concrete": "Green Simulation_Block",
+    "block.minecraft.brown_concrete": "Brown Simulation_Block",
+    "block.minecraft.blue_concrete": "Blue Simulation_Block",
+    "block.minecraft.purple_concrete": "Purple Simulation_Block",
+    "block.minecraft.cyan_concrete": "Cyan Simulation_Block",
+    "block.minecraft.light_gray_concrete": "Light Gray Simulation_Block",
+    "block.minecraft.gray_concrete": "Gray Simulation_Block",
+    "block.minecraft.pink_concrete": "Pink Simulation_Block",
+    "block.minecraft.lime_concrete": "Lime Simulation_Block",
+    "block.minecraft.yellow_concrete": "Yellow Simulation_Block",
+    "block.minecraft.light_blue_concrete": "Light Blue Simulation_Block",
+    "block.minecraft.magenta_concrete": "Magenta Simulation_Block",
+    "block.minecraft.orange_concrete": "Orange Simulation_Block",
+    "block.minecraft.white_concrete": "White Simulation_Block"
+}

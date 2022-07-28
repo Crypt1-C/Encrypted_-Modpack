@@ -1,0 +1,11 @@
+{
+  "name": "Methane",
+  "colors": [
+    "ffffff",
+    "c7c7c7"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_cocaine"
+  },
+  "inUltimateSingularity": true
+}

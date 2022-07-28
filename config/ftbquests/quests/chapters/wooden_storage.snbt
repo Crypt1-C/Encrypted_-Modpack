@@ -1,0 +1,278 @@
+{
+	id: "20729E0F3F5E8AEA"
+	group: "10DB5C1CE56FDEE6"
+	order_index: 0
+	filename: "wooden_storage"
+	title: "Wooden Storage"
+	icon: "minecraft:barrel"
+	subtitle: ["8GB Storage"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Chests"
+			x: 0.5d
+			y: -0.5d
+			id: "049471D4F42FACF9"
+			tasks: [{
+				id: "49719695B7EA47E5"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		}
+		{
+			title: "Drawers"
+			x: 2.0d
+			y: -0.5d
+			id: "56902324D515512C"
+			tasks: [{
+				id: "7720AFBBC94B573D"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			title: "Framed Drawers"
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["56902324D515512C"]
+			id: "31A693C90405913E"
+			tasks: [{
+				id: "5C01B228DDAF3579"
+				type: "item"
+				title: "Any #framedcompactdrawers:frame_triple"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "framedcompactdrawers:frame_triple"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["56902324D515512C"]
+			id: "255E3878A5CCD26A"
+			tasks: [{
+				id: "66652939817ADC45"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			dependencies: ["255E3878A5CCD26A"]
+			id: "06F25D1D48E08D74"
+			tasks: [{
+				id: "260BC9D9E3091B1B"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["680F533D6E7E90AB"]
+			id: "04AC8294EC882B55"
+			tasks: [{
+				id: "226A8BD4D0A45088"
+				type: "item"
+				item: "framedcompactdrawers:framed_slave"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["31A693C90405913E"]
+			id: "4B8B7FE96E85DDF4"
+			tasks: [{
+				id: "242A007B5A25714C"
+				type: "item"
+				item: "framedcompactdrawers:framed_compact_drawer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["56902324D515512C"]
+			id: "5D22BDDFC61CC894"
+			tasks: [{
+				id: "301608FE0D17AA57"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["31A693C90405913E"]
+			id: "680F533D6E7E90AB"
+			tasks: [{
+				id: "0548A78C6328405C"
+				type: "item"
+				item: "framedcompactdrawers:framed_drawer_controller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "square"
+			dependencies: ["56902324D515512C"]
+			id: "1EB2B93B4D7C2F32"
+			tasks: [{
+				id: "1D607BBDFFBDC261"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["1EB2B93B4D7C2F32"]
+			id: "18D11B17A0F8B0DC"
+			tasks: [{
+				id: "18B16D893AA94330"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["18D11B17A0F8B0DC"]
+			id: "7588CE13716CF644"
+			tasks: [{
+				id: "55A7978EF9BC4CC1"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["7588CE13716CF644"]
+			id: "12A90334C955DB6C"
+			tasks: [{
+				id: "27C5C0191360E8F2"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["12A90334C955DB6C"]
+			id: "7878B2746B03970C"
+			tasks: [{
+				id: "45A86CD07E4F5205"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["7878B2746B03970C"]
+			id: "0522DB02859BED86"
+			tasks: [{
+				id: "4AF2A99FF30D9F1E"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			shape: "rsquare"
+			dependencies: ["221BA71F5DE5065A"]
+			id: "7FF609826FF5BBBC"
+			tasks: [{
+				id: "0C476B42EAD534CC"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			shape: "rsquare"
+			dependencies: ["1EB2B93B4D7C2F32"]
+			id: "221BA71F5DE5065A"
+			tasks: [{
+				id: "2A59072B1AF8B7F1"
+				type: "item"
+				item: "storagedrawers:void_upgrade"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			shape: "rsquare"
+			dependencies: ["7FF609826FF5BBBC"]
+			id: "5F9EC5CB880D0885"
+			tasks: [{
+				id: "6E3137F2BC5ED37D"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["1EB2B93B4D7C2F32"]
+			id: "6F5DB9EB351E5A10"
+			tasks: [{
+				id: "11760CDA0DFDD43C"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["6F5DB9EB351E5A10"]
+			id: "5B009E4684FECCAA"
+			tasks: [{
+				id: "5302BE210F93970F"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			shape: "gear"
+			dependencies: ["6F5DB9EB351E5A10"]
+			id: "60FCE6C73C38177A"
+			tasks: [{
+				id: "643ABD30176EE194"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
+	]
+}

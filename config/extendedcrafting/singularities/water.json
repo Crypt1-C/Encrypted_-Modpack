@@ -1,0 +1,11 @@
+{
+  "name": "Water",
+  "colors": [
+    "0d4893",
+    "0b3366"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_water"
+  },
+  "inUltimateSingularity": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Sucrose",
+  "colors": [
+    "b8afad",
+    "7f7978"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_sucrose"
+  },
+  "inUltimateSingularity": true
+}

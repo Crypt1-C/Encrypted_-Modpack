@@ -1,0 +1,10 @@
+{
+  "type": "pneumaticcraft:assembly_laser",
+  "input": {
+    "item": "kubejs:encrypted_ingot"
+  },
+  "result": {
+    "item": "kubejs:crypto_currency"
+  },
+  "program": "laser"
+}

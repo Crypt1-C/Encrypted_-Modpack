@@ -1,0 +1,192 @@
+{
+	id: "3C8C01C1DFF66B2D"
+	group: ""
+	order_index: 0
+	filename: "information"
+	title: "Information_"
+	icon: "computercraft:printed_pages"
+	subtitle: ["Information(s)"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "computercraft:computer_normal"
+			x: -0.75d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "> Start_"
+			description: ["Have fun :D"]
+			dependencies: [
+				"7A3F27E8F5290BF4"
+				"6F096D3A1C21F9AC"
+				"1BA70051AB238277"
+				"38D3B9F26C4AF843"
+				"737E8188B3F1B769"
+			]
+			size: 1.5d
+			id: "2D6B42F98B383FA1"
+			tasks: [{
+				id: "03925A63A5A19CDB"
+				type: "checkmark"
+				title: "Encrypted_"
+			}]
+			rewards: [
+				{
+					id: "15C1F03362711982"
+					type: "item"
+					item: {
+						id: "computercraft:pocket_computer_advanced"
+						Count: 1b
+						tag: {
+							Upgrade: "computercraft:wireless_modem_normal"
+						}
+					}
+				}
+				{
+					id: "495E8C1E0BEBC446"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: {
+				id: "computercraft:disk"
+				Count: 1b
+				tag: {
+					Color: 11691749
+				}
+			}
+			x: -3.0d
+			y: 1.0d
+			shape: "hexagon"
+			subtitle: "Encrypted_"
+			description: [
+				"\"Encrypted_\" is all about generating resources and making machines to help you get back to the real world"
+				""
+				"Some Quests/recipe are subject to change !"
+			]
+			id: "7A3F27E8F5290BF4"
+			tasks: [{
+				id: "7F0AA04540256621"
+				type: "checkmark"
+				title: "About"
+			}]
+			rewards: [{
+				id: "5C9A2233E3FAFBB7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "quark:purple_rune"
+			x: -2.5d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: ":3"
+			description: [
+				"Hi i am Crypt1C and my name is prenounced \"cryptic\""
+				""
+				"This is my first ever modpack so it's not THAT perfect "
+				"If You have any [issues/bugs] you can join the discord and i will try to help you out"
+				""
+				"https://discord.gg/834pwJ9"
+			]
+			id: "6F096D3A1C21F9AC"
+			tasks: [{
+				id: "747A94A622949B39"
+				type: "checkmark"
+				title: "Contact"
+			}]
+			rewards: [{
+				id: "01751722F3A6B413"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "tombstone:book_of_recycling"
+			x: -3.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "A tragic accident"
+			description: [
+				"You are a Software Engineer who works at \"Krypt Tech.\""
+				""
+				"After hard work, \"Kript Tech.\" succeded at making a machine that can simulate reality. They called it \"SRSM\"."
+				""
+				"One day, and while you were working on the \"SRSM\", It Developed a BUG_ that caused it to transport you to a whole new <simulated/> reality."
+				""
+				"Luckly, Your PocketComputer has the ability to write some code and inject it into this <simulated/> reality."
+				""
+			]
+			id: "1BA70051AB238277"
+			tasks: [{
+				id: "11DB71BD622DCE83"
+				type: "checkmark"
+				title: "Story"
+			}]
+			rewards: [{
+				id: "04DC3EC148D02981"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Read Me !"
+			icon: "allthemodium:unobtainium_gear"
+			x: -3.0d
+			y: -1.0d
+			shape: "hexagon"
+			subtitle: "Important Informations"
+			description: [
+				"1. Mobs Don't spawn At night time (cursed dirt farms work)"
+				""
+				"2. Encrypted Matter Can be obtained by [Crouching + Right Clicking] White Simulation Blocks"
+				""
+				"3. Ultimine is installed "
+				""
+				"4. You can Twerk or sprint to grow saplings and plants"
+				""
+				"5. White simulation blocks can be combined with other elements to make new colored variants"
+			]
+			id: "38D3B9F26C4AF843"
+			tasks: [{
+				id: "5AD258DEB7981FDE"
+				type: "checkmark"
+				title: "!"
+			}]
+			rewards: [{
+				id: "168BAB97CCD44DAC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "kubejs:crypto_currency"
+			x: -2.5d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Moneyyyyyyyyyy"
+			description: [
+				"CryptoCurrencies can be used to buy items from the E-shop"
+				""
+				"Spend it wisely"
+				""
+				"You can make your own currency using PNC:R Assembly line"
+			]
+			id: "737E8188B3F1B769"
+			tasks: [{
+				id: "0E5AF66D0A6EC377"
+				type: "checkmark"
+				title: "Crypto Currency"
+			}]
+			rewards: [{
+				id: "1E6F5FA5BADBD7D3"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 2
+			}]
+		}
+	]
+}

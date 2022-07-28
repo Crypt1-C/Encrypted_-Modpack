@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:atomizer",
+  "group": "minecraft:misc",
+  "input": {
+    "fluid": "mekanism:lithium",
+    "amount": 1000
+  },
+  "result": {
+    "item": "chemlib:element_lithium",
+    "count": 16
+  }
+}

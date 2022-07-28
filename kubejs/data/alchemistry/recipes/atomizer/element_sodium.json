@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:atomizer",
+  "group": "minecraft:misc",
+  "input": {
+    "fluid": "mekanism:sodium",
+    "amount": 1000
+  },
+  "result": {
+    "item": "chemlib:element_sodium",
+    "count": 16
+  }
+}

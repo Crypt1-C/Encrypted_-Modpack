@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "minecraft:misc",
+  "ingredient": {
+    "item": "chemlib:compound_sulfur_dioxide"
+  },
+  "inputCount": 16,
+  "result": {
+    "fluid": "mekanism:sulfur_dioxide",
+    "amount": 1000
+  }
+}

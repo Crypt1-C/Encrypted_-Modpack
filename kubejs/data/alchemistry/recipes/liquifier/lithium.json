@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "minecraft:misc",
+  "ingredient": {
+    "item": "chemlib:element_lithium"
+  },
+  "inputCount": 16,
+  "result": {
+    "fluid": "mekanism:lithium",
+    "amount": 1000
+  }
+}

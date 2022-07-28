@@ -1,0 +1,400 @@
+{
+	id: "321B351F982A03FA"
+	group: "5508F37D906E5430"
+	order_index: 2
+	filename: "logistics__networks"
+	title: "Logistics \\& Networks_"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.25d
+			y: -2.5d
+			id: "318A045E70B82157"
+			tasks: [{
+				id: "2AC7315D4268896E"
+				type: "item"
+				item: "xnet:controller"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			id: "02C7B5FD57219481"
+			tasks: [{
+				id: "675EB7AE5B1089D9"
+				type: "item"
+				item: "xnet:netcable_red"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			id: "1324D67D9768F9FC"
+			tasks: [{
+				id: "1AB074A6AE26D46F"
+				type: "item"
+				item: "xnet:netcable_green"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			id: "1452B163F1E3F034"
+			tasks: [{
+				id: "556AAB8A601BADC0"
+				type: "item"
+				item: "xnet:netcable_yellow"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "01FCD166A7CABD96"
+			tasks: [{
+				id: "2DE25E0B0424BFE2"
+				type: "item"
+				item: "xnet:netcable_blue"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			id: "05B3BE39EC97E658"
+			tasks: [{
+				id: "5E134CF5F9218900"
+				type: "item"
+				item: "xnet:connector_red"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			id: "70963854F5F5DAB7"
+			tasks: [{
+				id: "398A843E7CF7A204"
+				type: "item"
+				item: "xnet:connector_green"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			id: "3B40CCE086C8C65B"
+			tasks: [{
+				id: "180506700E83AF4A"
+				type: "item"
+				item: "xnet:connector_blue"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "05913ECC8F60CDA4"
+			tasks: [{
+				id: "2747D886C1EB6992"
+				type: "item"
+				item: "xnet:connector_yellow"
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["05B3BE39EC97E658"]
+			id: "15341761C6FEE90C"
+			tasks: [{
+				id: "34183079912F3F39"
+				type: "item"
+				item: "xnet:advanced_connector_red"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["05913ECC8F60CDA4"]
+			id: "231DBCC35B07078D"
+			tasks: [{
+				id: "4B41E19D027B28C3"
+				type: "item"
+				item: "xnet:advanced_connector_yellow"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: ["3B40CCE086C8C65B"]
+			id: "699E3E636A65F142"
+			tasks: [{
+				id: "2013B4394E7B05D9"
+				type: "item"
+				item: "xnet:advanced_connector_blue"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["70963854F5F5DAB7"]
+			id: "4F076A8A3113F32F"
+			tasks: [{
+				id: "6EA3D67CE63098FF"
+				type: "item"
+				item: "xnet:advanced_connector_green"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.0d
+			id: "6600424FEA213BDA"
+			tasks: [{
+				id: "331C5AB0E90C5FA8"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			id: "1C523541422CB89F"
+			tasks: [{
+				id: "3AB2EEEDA01F892C"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			id: "43A111A25CC9DEC1"
+			tasks: [{
+				id: "3614EAC1F21EB90E"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			id: "4386C48992872FF3"
+			tasks: [{
+				id: "08EE4C74166B0F3E"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			id: "4CEDAC9EAA3BCBC2"
+			tasks: [{
+				id: "6CEE31D1E567EB1B"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "3E759B26B957256E"
+			tasks: [{
+				id: "1EECA3879876A3C2"
+				type: "item"
+				item: "mekanism:advanced_universal_cable"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "123AED285AB50FFD"
+			tasks: [{
+				id: "4C898554B25C3276"
+				type: "item"
+				item: "mekanism:elite_universal_cable"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "5FBCB9DCD4F97576"
+			tasks: [{
+				id: "196AB3B74CBF0A97"
+				type: "item"
+				item: "mekanism:ultimate_universal_cable"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			id: "36BB9F5617D33C7C"
+			tasks: [{
+				id: "48F3A7BB9DC2A2BA"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			id: "4E81D67FE609B5B6"
+			tasks: [{
+				id: "0B2999BD3829CEC0"
+				type: "item"
+				item: "pipez:fluid_pipe"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "12E91CBF0BB448A4"
+			tasks: [{
+				id: "6F5D2031FB933896"
+				type: "item"
+				item: "pipez:item_pipe"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			id: "34C535EEA7742247"
+			tasks: [{
+				id: "182CE6E86D771328"
+				type: "item"
+				item: "pipez:gas_pipe"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			id: "0D9FB58C773E7B9E"
+			tasks: [{
+				id: "1849C104CC8F7AE3"
+				type: "item"
+				item: "pipez:wrench"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			id: "10142ED2A4ED3206"
+			tasks: [{
+				id: "568952CCB91E9965"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			id: "60F62B16F91EA94A"
+			tasks: [{
+				id: "46E308BFD6A760DC"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: [
+				"36BB9F5617D33C7C"
+				"4E81D67FE609B5B6"
+				"34C535EEA7742247"
+				"12E91CBF0BB448A4"
+			]
+			id: "4104400F9BFE5815"
+			tasks: [{
+				id: "32B50CB888698C0F"
+				type: "item"
+				item: "pipez:universal_pipe"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			id: "69BCC3CDE19BD55D"
+			tasks: [{
+				id: "1AD3F6EAF7CACB8F"
+				type: "item"
+				item: "laserio:laser_wrench"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			id: "16BB8CC1E34A707A"
+			tasks: [{
+				id: "6EAB390BF63A14C7"
+				type: "item"
+				item: "laserio:laser_node"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			id: "7E0B374BABC7DB73"
+			tasks: [{
+				id: "5F76A99910F0010A"
+				type: "item"
+				item: "laserio:laser_connector"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			id: "168DC6B71F719070"
+			tasks: [{
+				id: "0022BBD631A72E46"
+				type: "item"
+				item: {
+					id: "laserio:card_holder"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 15
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			id: "72EDF255E660DED6"
+			tasks: [{
+				id: "4E3D6EFCA3DBADB2"
+				type: "item"
+				item: "laserio:card_item"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			id: "3E8B8A1C09BF811D"
+			tasks: [{
+				id: "7B4012EF1C8CFCA9"
+				type: "item"
+				item: "laserio:card_fluid"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			id: "19447670A6548EA9"
+			tasks: [{
+				id: "08ED11ABF8B81B7A"
+				type: "item"
+				item: "laserio:card_energy"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			id: "2C95803EB0A6ADCE"
+			tasks: [{
+				id: "7A372BE1C40DE3E4"
+				type: "item"
+				item: "laserio:card_redstone"
+			}]
+		}
+	]
+}

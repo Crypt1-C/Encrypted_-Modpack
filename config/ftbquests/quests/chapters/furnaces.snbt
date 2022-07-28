@@ -1,0 +1,181 @@
+{
+	id: "6C484E7FB3BE6E25"
+	group: "5508F37D906E5430"
+	order_index: 0
+	filename: "furnaces"
+	title: "Furnaces_"
+	icon: {
+		id: "ironfurnaces:million_furnace"
+		Count: 1b
+		tag: {
+			display: {
+				Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"green\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"b\"},{\"color\":\"blue\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"blue\",\"text\":\" \"},{\"color\":\"blue\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"aqua\",\"text\":\"r\"},{\"color\":\"aqua\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"c\"},{\"color\":\"yellow\",\"text\":\"e\"}],\"text\":\"\"}"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 10.5d
+			y: -6.0d
+			dependencies: ["42C152F72894C322"]
+			dependency_requirement: "one_completed"
+			id: "38D5C0770F717A7B"
+			tasks: [{
+				id: "5FF109938B227EA3"
+				type: "item"
+				item: "ironfurnaces:iron_furnace"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -6.0d
+			dependencies: [
+				"38D5C0770F717A7B"
+				"3F3300BCBA1CE420"
+			]
+			dependency_requirement: "one_completed"
+			id: "0AF5023B9F043DD8"
+			tasks: [{
+				id: "32649F75365B443A"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -6.0d
+			dependencies: ["0AF5023B9F043DD8"]
+			id: "3203096D3D191918"
+			tasks: [{
+				id: "526EC22F4AE2F5EC"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -6.0d
+			dependencies: ["3203096D3D191918"]
+			id: "64E8698D1D41825F"
+			tasks: [{
+				id: "027690FA9C7593DD"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+		}
+		{
+			x: 16.5d
+			y: -6.0d
+			dependencies: ["64E8698D1D41825F"]
+			id: "04F5EFDB62CD0751"
+			tasks: [{
+				id: "5BCAE0353B0EFF32"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -4.5d
+			dependencies: ["3203096D3D191918"]
+			optional: true
+			id: "2B44614801DDFA64"
+			tasks: [{
+				id: "21F2CB3F2DEA7259"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			optional: true
+			id: "42C152F72894C322"
+			tasks: [{
+				id: "1C686C9DBDD533C4"
+				type: "item"
+				item: "ironfurnaces:copper_furnace"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -6.0d
+			dependencies: ["04F5EFDB62CD0751"]
+			id: "3466BE7061EEE398"
+			tasks: [{
+				id: "378FFF525CAC3FF9"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -4.5d
+			dependencies: ["42C152F72894C322"]
+			optional: true
+			id: "3F3300BCBA1CE420"
+			tasks: [{
+				id: "7D74B9D559AB29D7"
+				type: "item"
+				item: "ironfurnaces:silver_furnace"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -4.5d
+			dependencies: ["3466BE7061EEE398"]
+			optional: true
+			id: "61712012BFE4C0DA"
+			tasks: [{
+				id: "0A1C413735B01B2D"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -3.0d
+			dependencies: ["61712012BFE4C0DA"]
+			optional: true
+			id: "62D18C0BFCD481BC"
+			tasks: [{
+				id: "0636F2F63A32EBD1"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -1.5d
+			dependencies: ["62D18C0BFCD481BC"]
+			optional: true
+			id: "3477BA0E5E20724A"
+			tasks: [{
+				id: "07C2F68EACEE95A0"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+		}
+		{
+			x: 19.5d
+			y: -6.0d
+			dependencies: ["3466BE7061EEE398"]
+			id: "166268EAAE17C544"
+			tasks: [{
+				id: "2E29ABA913209B3E"
+				type: "item"
+				item: {
+					id: "ironfurnaces:million_furnace"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"extra\":[{\"color\":\"green\",\"text\":\"R\"},{\"color\":\"yellow\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"red\",\"text\":\"n\"},{\"color\":\"blue\",\"text\":\"b\"},{\"color\":\"light_purple\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"yellow\",\"text\":\" \"},{\"color\":\"aqua\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"yellow\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"red\",\"text\":\"c\"},{\"color\":\"green\",\"text\":\"e\"}],\"text\":\"\"}"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

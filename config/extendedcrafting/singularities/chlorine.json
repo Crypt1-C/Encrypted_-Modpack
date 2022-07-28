@@ -1,0 +1,11 @@
+{
+  "name": "Chlorine",
+  "colors": [
+    "3a4e15",
+    "1f290b"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_chlorine"
+  },
+  "inUltimateSingularity": true
+}

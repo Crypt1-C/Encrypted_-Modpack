@@ -1,0 +1,45 @@
+{
+    "type": "alchemistry:combiner",
+    "group": "minecraft:misc",
+    "input": [
+      {
+        "item": "chemlib:element_carbon",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_sulfur",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_carbon",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_sulfur",
+        "count": 64
+      },
+      {
+        "item": "minecraft:egg",
+        "count": 1
+      },
+      {
+        "item": "chemlib:element_sulfur",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_carbon",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_sulfur",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_carbon",
+        "count": 64
+      }
+    ],
+    "result": {
+      "item": "mob_grinding_utils:rotten_egg"
+    }
+  }

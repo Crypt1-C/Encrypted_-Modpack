@@ -1,0 +1,11 @@
+{
+  "name": "Propane",
+  "colors": [
+    "561a2b",
+    "411421"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_propane"
+  },
+  "inUltimateSingularity": true
+}

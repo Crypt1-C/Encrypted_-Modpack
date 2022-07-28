@@ -1,0 +1,11 @@
+{
+  "name": "Neon",
+  "colors": [
+    "42af0c",
+    "29660b"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_neon"
+  },
+  "inUltimateSingularity": true
+}

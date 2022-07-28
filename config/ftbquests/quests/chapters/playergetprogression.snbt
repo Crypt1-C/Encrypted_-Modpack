@@ -1,0 +1,247 @@
+{
+	id: "1890AAF8B6A9A0D0"
+	group: ""
+	order_index: 1
+	filename: "playergetprogression"
+	title: "player.getProgression()"
+	icon: "mekanism:upgrade_speed"
+	subtitle: ["Progression_"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Progression.start()"
+			icon: "mekanism:upgrade_speed"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "player.setStatus(\"is_progressing\")"
+			description: ["echo(\"start your journey !\")"]
+			dependencies: ["3C8C01C1DFF66B2D"]
+			size: 1.5d
+			id: "438B3041CF9FF197"
+			tasks: [{
+				id: "7DD0A8FB1FDEE9A8"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "678F2FEF501C57CD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "0B885F5FB5592163"
+					type: "item"
+					item: {
+						id: "advancedperipherals:ar_goggles"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B5432C050C065ED"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "From !Everything_"
+			icon: "forbidden_arcanus:dark_matter"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "= from NOTHING_"
+			description: ["Haha get it ? ... nvm"]
+			dependencies: ["438B3041CF9FF197"]
+			id: "12B7956525612F15"
+			tasks: [{
+				id: "376F841F8CAC2E0B"
+				type: "checkmark"
+				title: "startChapter(\" From !Everything_ \")"
+				icon: "botania:gaia_head"
+			}]
+			rewards: [
+				{
+					id: "1516DF870F435A80"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "21C696EFA710E64B"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Travel.com"
+			icon: "allthemodium:other_vibranium_ore"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "visiting Other dimensions"
+			dependencies: [
+				"09FA4E4ACED23942"
+				"3318BAD19E0592D2"
+				"4B5015A0BB5167AE"
+				"2DDCCB475640B983"
+				"71957C1264A562EA"
+			]
+			id: "45F9F7691B5C82E1"
+			tasks: [{
+				id: "339D474484C157F4"
+				type: "checkmark"
+				title: "Getting there... Eventually"
+			}]
+			rewards: [{
+				id: "43FC57081F5CFFA9"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "I <3 Chemistry"
+			icon: "chemlib:element_bromine"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "<3"
+			description: ["Who Hates chemistry ? !No_One"]
+			dependencies: [
+				"12B7956525612F15"
+				"0B2F08C65818F892"
+			]
+			id: "3318BAD19E0592D2"
+			tasks: [{
+				id: "7794198387FA43A5"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "377F293178F28FA6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "143E79B02A2FD612"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Magicae"
+			icon: {
+				id: "occultism:book_of_binding_bound_djinni"
+				Count: 1b
+				tag: {
+					spiritName: "Azakcloarc"
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Magic"
+			dependencies: [
+				"45F9F7691B5C82E1"
+				"53EED331EF4B4736"
+			]
+			id: "5851FF0B25F12972"
+			tasks: [{
+				id: "6B5D2E6770057F1A"
+				type: "checkmark"
+				title: "Mystical Indeed"
+			}]
+			rewards: [{
+				id: "2729738ED7A5B243"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "EOF_"
+			icon: "extendedcrafting:ultimate_singularity"
+			x: 12.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "End Of File_ (endgame)"
+			dependencies: [
+				"1861FD6C982CBB63"
+				"398F18392F52A657"
+				"5F9C092B8E70782E"
+				"667851E00A5A178E"
+				"184B8217FE7868E3"
+			]
+			size: 2.0d
+			id: "0C3900F6FF34D93C"
+			tasks: [{
+				id: "73E5A3A86BF118A4"
+				type: "checkmark"
+				title: "EOF_"
+			}]
+			rewards: [{
+				id: "3E2D45A75786271D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "Tech v1.0"
+			icon: "create:large_cogwheel"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Technology 1.0"
+			dependencies: [
+				"5851FF0B25F12972"
+				"421E7B2D832C1345"
+			]
+			id: "3DA500DFB47195B1"
+			tasks: [{
+				id: "3C5A04B9BC1D9C6E"
+				type: "checkmark"
+				title: "Machina Industrilas"
+			}]
+			rewards: [{
+				id: "583DE6EC9E4052DD"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			icon: "thermal:machine_frame"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "More machines !"
+			description: [""]
+			dependencies: [
+				"3DA500DFB47195B1"
+				"72B48F84CC2B5921"
+				"2D3A96B33F6095C5"
+			]
+			id: "19F02DFB9CBE6E94"
+			tasks: [{
+				id: "6A3790C7316253FC"
+				type: "checkmark"
+				title: "Tech v2.0"
+			}]
+		}
+		{
+			title: "Simulated Space ?"
+			icon: {
+				id: "beyond_earth:rocket_t2"
+				Count: 1b
+				tag: { }
+			}
+			x: 10.5d
+			y: 0.0d
+			subtitle: "Sophisticated Space Simulations"
+			dependencies: ["19F02DFB9CBE6E94"]
+			id: "398F18392F52A657"
+			tasks: [{
+				id: "0B57E97ED75A792F"
+				type: "checkmark"
+				title: "Outer Space"
+			}]
+		}
+	]
+}

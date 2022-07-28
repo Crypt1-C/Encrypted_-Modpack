@@ -1,0 +1,467 @@
+{
+	id: "5DD47F756F719C4B"
+	group: "72F9B62EED0FC7BC"
+	order_index: 5
+	filename: "tech_v20"
+	title: "Tech v2.0"
+	icon: "thermal:machine_frame"
+	subtitle: ["More Machines"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.25d
+			subtitle: "Steel Age"
+			dependencies: ["72B48F84CC2B5921"]
+			size: 2.0d
+			id: "4F64AF90B0DAFA35"
+			tasks: [{
+				id: "2D75C556C21660D8"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+			rewards: [{
+				id: "2E8AB975FA31CA73"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.25d
+			dependencies: ["4F64AF90B0DAFA35"]
+			size: 1.5d
+			id: "3863D2FF1ABF2E89"
+			tasks: [{
+				id: "185657592A090D0D"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "1F20CC4985819D4D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["3863D2FF1ABF2E89"]
+			id: "07856DB4BBCE67A4"
+			tasks: [{
+				id: "7D53E2877FF7CE88"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "0594FDBD6585E6FC"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.25d
+			dependencies: ["07856DB4BBCE67A4"]
+			id: "140720261F44A070"
+			tasks: [{
+				id: "04AC6FA2DBECD831"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "59CFBE4E3B5CFCC7"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["140720261F44A070"]
+			id: "7BF5C51AF40B8169"
+			tasks: [{
+				id: "099F5F6EFC6D68E4"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [{
+				id: "2AC6D74BA96396A0"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["6CE7A01AB0FE10AF"]
+			id: "75FCB55A2C7FA1A9"
+			tasks: [{
+				id: "66F05D293BC2A490"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [{
+				id: "3DB373A89A09CEE5"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["3863D2FF1ABF2E89"]
+			id: "6CE7A01AB0FE10AF"
+			tasks: [{
+				id: "70F10E3CE1BEC396"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "3CA3E1B1D613709A"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.25d
+			dependencies: [
+				"07856DB4BBCE67A4"
+				"6CE7A01AB0FE10AF"
+			]
+			id: "6C09FFDCBCA61075"
+			tasks: [{
+				id: "21D9D54E7C6B9C14"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [{
+				id: "12BC9B741E5AB454"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: [
+				"6C09FFDCBCA61075"
+				"140720261F44A070"
+			]
+			id: "1109DAA44F8581E7"
+			tasks: [{
+				id: "1FD26C75394D7C17"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "2487DA5F18931976"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.25d
+			dependencies: [
+				"1109DAA44F8581E7"
+				"7BF5C51AF40B8169"
+			]
+			id: "796147056F9F49B0"
+			tasks: [{
+				id: "3CBACDB93D43C638"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [{
+				id: "38F1B368589F0788"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["6C09FFDCBCA61075"]
+			id: "7346201C26653725"
+			tasks: [{
+				id: "42312E55C6A8A85A"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			rewards: [{
+				id: "712519E40D41D160"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			dependencies: ["1109DAA44F8581E7"]
+			id: "29F59F4BBC9A4EE9"
+			tasks: [{
+				id: "4A1033B25ABB58DE"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [{
+				id: "14D10569803E7266"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["796147056F9F49B0"]
+			id: "064367A04D5B4541"
+			tasks: [{
+				id: "495039095B3E3749"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			rewards: [{
+				id: "243D3B3805DFE0B8"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["07856DB4BBCE67A4"]
+			id: "5915165ACDE8DB68"
+			tasks: [{
+				id: "6965B5D8393C4127"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+			rewards: [{
+				id: "589C37303C9C1A32"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["4F64AF90B0DAFA35"]
+			size: 1.5d
+			id: "091299DEEDA0AB26"
+			tasks: [{
+				id: "78E7CC8726D91E91"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "1EA445DC9AFA8759"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -1.5d
+			dependencies: ["4F64AF90B0DAFA35"]
+			size: 1.5d
+			id: "613D79C8AF45D48A"
+			tasks: [{
+				id: "7FCFB8EAD858021B"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+			rewards: [{
+				id: "20CD4A2638ED8864"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.25d
+			dependencies: ["4F64AF90B0DAFA35"]
+			size: 1.5d
+			id: "1D8C61D72081747D"
+			tasks: [{
+				id: "1457672FCA61E9D6"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [{
+				id: "3B0B99A1CFD47422"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["4F64AF90B0DAFA35"]
+			size: 1.5d
+			id: "69675F07C1DE9496"
+			tasks: [{
+				id: "65958A394D2D7146"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "69A6F57D1254B8D6"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.25d
+			y: 4.0d
+			dependencies: ["69675F07C1DE9496"]
+			dependency_requirement: "one_completed"
+			id: "1861FD6C982CBB63"
+			tasks: [{
+				id: "2B84DE5F59661994"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "6545A9917D3759A3"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -2.75d
+			y: 4.0d
+			dependencies: ["69675F07C1DE9496"]
+			id: "07481BFE821AD47A"
+			tasks: [{
+				id: "7938C2B09166EC51"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "3044F29338537C4F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["3863D2FF1ABF2E89"]
+			id: "05A6FE8EE6C6C1F0"
+			tasks: [{
+				id: "3E1C51197555F188"
+				type: "item"
+				item: "thermal:rf_coil"
+			}]
+			rewards: [{
+				id: "7C0B515A14FB0A6F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["69675F07C1DE9496"]
+			id: "0B9C88A903647BAB"
+			tasks: [{
+				id: "19FEE440B3322A42"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "5D2E4FF08852B1B7"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Split elements into more new elements"
+			dependencies: [
+				"5886A0F062BAD812"
+				"7D4B54AACC4A3B46"
+			]
+			size: 2.0d
+			id: "2FB567645A4EFE1A"
+			tasks: [{
+				id: "455B7A69916AC0F5"
+				type: "item"
+				item: "alchemistry:fission_controller"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.1d
+			shape: "diamond"
+			size: 1.5d
+			id: "5886A0F062BAD812"
+			tasks: [{
+				id: "1E9E31F3EA88D29B"
+				type: "item"
+				item: "alchemistry:fission_core"
+				count: 9L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.1d
+			shape: "diamond"
+			size: 1.5d
+			id: "7D4B54AACC4A3B46"
+			tasks: [{
+				id: "19E58F8C7292FF55"
+				type: "item"
+				item: "alchemistry:fission_casing"
+				count: 88L
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Combine Elements to create EVEN more elements"
+			dependencies: [
+				"66F44AB4C8B40094"
+				"110F5E690AE8C6D0"
+			]
+			size: 2.0d
+			id: "1A688943A85E38E0"
+			tasks: [{
+				id: "472A08DC21059673"
+				type: "item"
+				item: "alchemistry:fusion_controller"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "110F5E690AE8C6D0"
+			tasks: [{
+				id: "59643C1A69E53323"
+				type: "item"
+				item: "alchemistry:fusion_core"
+				count: 9L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			shape: "diamond"
+			size: 1.5d
+			id: "66F44AB4C8B40094"
+			tasks: [{
+				id: "790ADBEA0A39128D"
+				type: "item"
+				item: "alchemistry:fusion_casing"
+			}]
+		}
+	]
+}

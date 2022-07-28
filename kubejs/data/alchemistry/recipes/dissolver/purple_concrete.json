@@ -1,0 +1,45 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "minecraft:misc",
+  "input": {
+    "item": "minecraft:purple_concrete"
+  },
+  "output": {
+    "rolls": 1,
+    "relativeProbability": true,
+    "groups": [
+      {
+        "probability": 5.0,
+        "stacks": [
+          {
+            "item": "minecraft:air"
+          }
+        ]
+      },
+      {
+        "probability": 8.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_iodine"
+          }
+        ]
+      },
+      {
+        "probability": 3.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_vanadium"
+          }
+        ]
+      },
+      {
+        "probability": 1.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_tungsten"
+          }
+        ]
+      }
+    ]
+  }
+}

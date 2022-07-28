@@ -1,0 +1,11 @@
+{
+  "name": "Cellulose",
+  "colors": [
+    "639948",
+    "40622f"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_cellulose"
+  },
+  "inUltimateSingularity": true
+}

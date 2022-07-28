@@ -1,0 +1,249 @@
+{
+	id: "197BB428F3DEF71A"
+	group: "5508F37D906E5430"
+	order_index: 1
+	filename: "utils"
+	title: "Helpful Items"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Angel Ring"
+			x: 2.5d
+			y: 0.5d
+			subtitle: "Make an Angel Ring"
+			description: ["Flight goes brrrrrr"]
+			id: "55EA528E73C2804A"
+			tasks: [{
+				id: "04B47BC0F57CDF34"
+				type: "item"
+				title: "Any #curios:angelring"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "curios:angelring"
+					}
+				}
+			}]
+			rewards: [{
+				id: "62C77E20B87D67E3"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "2DC446E2FDA8836F"
+			tasks: [{
+				id: "48364374D12D0D84"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			id: "21FD447AF4DB63CB"
+			tasks: [{
+				id: "7FBBD787848BFDE4"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "6C9B88C9DEFADB02"
+			tasks: [{
+				id: "2C4B9261850926E5"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			id: "0E9EF941103C3128"
+			tasks: [{
+				id: "4F07180AB49AA831"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Find dem Structures "]
+			id: "6EF1444BC708D36D"
+			tasks: [{
+				id: "5DFFD4F06B8B8678"
+				type: "item"
+				item: "structures_compass:structures_compass"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Find dem Biomes"]
+			id: "16859143A5AF8277"
+			tasks: [{
+				id: "6C7DFA50C2766D12"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Speeds Up Plant Groth Speed"]
+			id: "46DF9472BDDE12F8"
+			tasks: [{
+				id: "5D376838463FDD73"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["Compact Infinite Water Source"]
+			id: "695753983315A715"
+			tasks: [{
+				id: "2C39564D39AC09E8"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: ["All your tools in 1 item"]
+			id: "2AF7F1E4112CDC1C"
+			tasks: [{
+				id: "4CFA576C45B09DC9"
+				type: "item"
+				item: "toolbelt:belt"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			description: ["Where are they ?"]
+			id: "124BFDF7FD768224"
+			tasks: [{
+				id: "4D379B94B4C7E110"
+				type: "item"
+				item: "scannable:scanner"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			id: "5B1C513B362D5EF4"
+			tasks: [{
+				id: "6592D0CD3E0366B0"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.0d
+			id: "158B272773B70A36"
+			tasks: [{
+				id: "10953E490CC75CE9"
+				type: "item"
+				item: "trashcans:liquid_trash_can"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			id: "49B6B6018CA9A4F0"
+			tasks: [{
+				id: "3FB7DFA18DA0D5A5"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			id: "01E68B7084A35EF4"
+			tasks: [{
+				id: "36707079E8AD9845"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_simple"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "64DDBD248F69C38F"
+			tasks: [{
+				id: "54F21C01683EF54C"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget_fancy"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			id: "58E926D849471F5A"
+			tasks: [{
+				id: "262625071E32533C"
+				type: "item"
+				item: {
+					id: "mininggadgets:mininggadget"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+	]
+}

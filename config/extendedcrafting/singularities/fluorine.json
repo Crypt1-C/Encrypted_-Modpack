@@ -1,0 +1,11 @@
+{
+  "name": "Fluorine",
+  "colors": [
+    "9c8e29",
+    "585017"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_fluorine"
+  },
+  "inUltimateSingularity": true
+}

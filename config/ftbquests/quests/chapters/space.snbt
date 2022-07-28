@@ -1,0 +1,277 @@
+{
+	id: "7A488E646C3369BB"
+	group: "72F9B62EED0FC7BC"
+	order_index: 6
+	filename: "space"
+	title: "Outer Space "
+	icon: {
+		id: "beyond_earth:rocket_t3"
+		Count: 1b
+		tag: { }
+	}
+	subtitle: ["Sophisticated Simulations Indeed"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Bonk... Reincarnate"
+			dependencies: ["398F18392F52A657"]
+			size: 1.25d
+			id: "0084593C9A165F9F"
+			tasks: [{
+				id: "6EE91A480814C8CC"
+				type: "item"
+				item: "beyond_earth:compressor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			subtitle: "Steel.zip"
+			dependencies: ["0084593C9A165F9F"]
+			id: "1574DEDA555EA996"
+			tasks: [{
+				id: "18B57C86EC995BCB"
+				type: "item"
+				item: "beyond_earth:compressed_steel"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "When NASA works..."
+			dependencies: ["1574DEDA555EA996"]
+			id: "2695E26BDBE6B682"
+			tasks: [{
+				id: "2CBA116910F3838E"
+				type: "item"
+				item: "beyond_earth:nasa_workbench"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			subtitle: "Sucking the O2 dry"
+			dependencies: ["398F18392F52A657"]
+			size: 1.25d
+			id: "361B97B2D078236D"
+			tasks: [{
+				id: "6D14ECE9AAD711B3"
+				type: "item"
+				item: "beyond_earth:oxygen_loader"
+			}]
+		}
+		{
+			x: -6.75d
+			y: 0.75d
+			subtitle: "S"
+			dependencies: ["398F18392F52A657"]
+			size: 1.5d
+			id: "40834ABA2E223903"
+			tasks: [{
+				id: "57CD8B53676AC35F"
+				type: "item"
+				item: {
+					id: "beyond_earth:space_suit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: -0.75d
+			subtitle: "M"
+			dependencies: ["398F18392F52A657"]
+			size: 1.5d
+			id: "0A17C3B38E255B1F"
+			tasks: [{
+				id: "5B4E91E86DFC06D7"
+				type: "item"
+				item: {
+					id: "beyond_earth:oxygen_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 2.25d
+			subtitle: "P"
+			dependencies: ["398F18392F52A657"]
+			size: 1.5d
+			id: "40BE720AD3D9AA55"
+			tasks: [{
+				id: "6D34C03FEBC72279"
+				type: "item"
+				item: {
+					id: "beyond_earth:space_pants"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.75d
+			y: 3.75d
+			subtitle: "B"
+			dependencies: ["398F18392F52A657"]
+			size: 1.5d
+			id: "3D9CB4D8BFE68845"
+			tasks: [{
+				id: "48E8A26D758247E9"
+				type: "item"
+				item: {
+					id: "beyond_earth:space_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			subtitle: "One Oxygen Tank for the Road"
+			dependencies: ["361B97B2D078236D"]
+			id: "31F8F0EE00F7C2B9"
+			tasks: [{
+				id: "5239CBC816CE55D7"
+				type: "item"
+				item: "beyond_earth_giselle_addon:oxygen_can"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			subtitle: "Fill it up!"
+			dependencies: ["398F18392F52A657"]
+			size: 1.25d
+			id: "076B7BA0F794D482"
+			tasks: [{
+				id: "05609B78AFD54B60"
+				type: "item"
+				item: "beyond_earth_giselle_addon:fuel_loader"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Pathetic Rocket"
+			dependencies: ["2695E26BDBE6B682"]
+			id: "66B019A8FDB227F1"
+			tasks: [{
+				id: "5D694C56ED009D23"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "Can be found on the moon"
+			dependencies: ["66B019A8FDB227F1"]
+			id: "5F9C092B8E70782E"
+			tasks: [{
+				id: "5B2C3EB5205C9F5A"
+				type: "item"
+				item: "beyond_earth:desh_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Advanced Rocket"
+			dependencies: [
+				"5F9C092B8E70782E"
+				"2695E26BDBE6B682"
+			]
+			id: "578A584538A96852"
+			tasks: [{
+				id: "7B7B30EBA9F8367C"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t2"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "Elite Rocket"
+			dependencies: [
+				"667851E00A5A178E"
+				"2695E26BDBE6B682"
+			]
+			id: "51842EF6C65907F0"
+			tasks: [{
+				id: "5FA540E497E97546"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t3"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Ultimate Rocket"
+			dependencies: [
+				"184B8217FE7868E3"
+				"2695E26BDBE6B682"
+			]
+			id: "7D928943654E811B"
+			tasks: [{
+				id: "491DC98EE2655C15"
+				type: "item"
+				item: {
+					id: "beyond_earth:rocket_t4"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "Can be found on Mars"
+			dependencies: ["578A584538A96852"]
+			id: "667851E00A5A178E"
+			tasks: [{
+				id: "044A177B8584E1A8"
+				type: "item"
+				item: "beyond_earth:ostrum_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Can be found on Venus"
+			dependencies: ["51842EF6C65907F0"]
+			id: "184B8217FE7868E3"
+			tasks: [{
+				id: "74C1D743D30B3608"
+				type: "item"
+				item: "beyond_earth:calorite_ingot"
+			}]
+		}
+	]
+}

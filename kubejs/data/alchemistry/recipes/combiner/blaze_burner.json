@@ -1,0 +1,38 @@
+{
+    "type": "alchemistry:combiner",
+    "group": "minecraft:misc",
+    "input": [
+      {
+        "item": "minecraft:air"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 2
+      },
+      {
+        "item": "minecraft:air"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 1
+      },
+      {
+        "item": "create:empty_blaze_burner",
+        "count": 1
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 1
+      },
+      {
+        "item": "minecraft:air"
+      },
+      {
+        "item": "minecraft:blaze_powder",
+        "count": 1
+      }
+    ],
+    "result": {
+      "item": "create:blaze_burner"
+    }
+  }

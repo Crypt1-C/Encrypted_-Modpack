@@ -1,0 +1,679 @@
+{
+	id: "7E02D3C1C563CB14"
+	group: "72F9B62EED0FC7BC"
+	order_index: 4
+	filename: "machinae_industrialis"
+	title: "Tech v1.0"
+	icon: "create:large_cogwheel"
+	subtitle: ["Technology 1.0"]
+	default_quest_shape: "gear"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: -5.25d
+			shape: "gear"
+			subtitle: "Andesite Tech"
+			description: ["JEI is your best friend "]
+			dependencies: ["7B4EA82C64CB2130"]
+			size: 1.5d
+			id: "5EF1B27A55CEAFAF"
+			tasks: [{
+				id: "0E48EB4602BE76B3"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [
+				{
+					id: "6D936F88F9C95F48"
+					type: "item"
+					item: "create:andesite_casing"
+					count: 2
+					random_bonus: 2
+				}
+				{
+					id: "1BA1897F9129956F"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -5.25d
+			subtitle: "Copper age"
+			description: ["used to make the next tier of casings"]
+			dependencies: ["5EF1B27A55CEAFAF"]
+			size: 1.5d
+			id: "1AC2ACA7417D4890"
+			tasks: [{
+				id: "0142BF6D038C2DCD"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+			rewards: [
+				{
+					id: "0674F3DDBAEB1016"
+					type: "item"
+					item: "create:copper_casing"
+					random_bonus: 1
+				}
+				{
+					id: "7C6781238390DD4C"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: -3.75d
+			subtitle: "Better than ever"
+			description: ["used to make the next tier of casings"]
+			dependencies: ["1AC2ACA7417D4890"]
+			size: 1.5d
+			id: "72B48F84CC2B5921"
+			tasks: [{
+				id: "66500BDDDE22BA25"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [
+				{
+					id: "1503D1BBBB321D1F"
+					type: "item"
+					item: "create:brass_casing"
+					random_bonus: 1
+				}
+				{
+					id: "39D290B60BC13A55"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Bonking time !"
+			description: ["Can be used to make plates"]
+			dependencies: ["5EF1B27A55CEAFAF"]
+			id: "5DFC218877C92083"
+			tasks: [{
+				id: "5DE898F9ACDBDBD6"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [
+				{
+					id: "10B3A7730CD65381"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "4ED97825840FD72C"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Mix mix mix"
+			dependencies: ["5EF1B27A55CEAFAF"]
+			id: "5FB5173D6FD58871"
+			tasks: [{
+				id: "7DD0FB069B3E6E5E"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [
+				{
+					id: "167AB5931119536B"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "7FD5FA0D8D7E47F2"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -3.5d
+			subtitle: "「za hando」"
+			dependencies: ["5EF1B27A55CEAFAF"]
+			id: "76E88AB1B454709F"
+			tasks: [{
+				id: "76D6F963BF92889C"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [
+				{
+					id: "3F46491ECB5FDD51"
+					type: "item"
+					item: "create:brass_hand"
+				}
+				{
+					id: "78736877D8E3D638"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 8.75d
+			y: -4.75d
+			subtitle: "siping dat water"
+			description: ["Helps you automate your evaporators"]
+			dependencies: ["1AC2ACA7417D4890"]
+			id: "0F4DEE1FF2D7AF66"
+			tasks: [{
+				id: "50BE74112CE33CF8"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [
+				{
+					id: "010D2AD57B1FDFD4"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "1BF5514FE02139D1"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 5.25d
+			y: -2.5d
+			subtitle: "i am fast as f boi"
+			dependencies: ["72B48F84CC2B5921"]
+			optional: true
+			id: "1AB264579AAFF9EF"
+			tasks: [{
+				id: "1FF5E50E8EE188CD"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "358DC460C862A091"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.0d
+			subtitle: "autocraft on steroids"
+			dependencies: ["72B48F84CC2B5921"]
+			optional: true
+			id: "24EBFB0D21208D19"
+			tasks: [{
+				id: "189000FAAA69E92F"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "4FC4DD4C0F00920F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "za hando requiem"
+			dependencies: ["72B48F84CC2B5921"]
+			optional: true
+			id: "010C1E301ED7D49D"
+			tasks: [{
+				id: "6A0FEEB1DD15C102"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "20AFF7E88F723611"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 8.75d
+			y: -5.75d
+			subtitle: "stone and all"
+			dependencies: ["1AC2ACA7417D4890"]
+			optional: true
+			id: "01E2AF2A654B44C0"
+			tasks: [{
+				id: "12FC662C79FE3714"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [{
+				id: "62F9D5A8290EF419"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -6.75d
+			shape: "gear"
+			subtitle: "Magic Infused"
+			description: ["andesite alloys are a little different here"]
+			dependencies: ["3DA500DFB47195B1"]
+			size: 2.0d
+			id: "7B4EA82C64CB2130"
+			tasks: [{
+				id: "280E4863A1552605"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "6823666364D46476"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: ["7B4EA82C64CB2130"]
+			id: "66FAB7FE9583B017"
+			tasks: [{
+				id: "1B89B66DE90F1348"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "66144A463443B8F7"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			dependencies: ["66FAB7FE9583B017"]
+			id: "6E858DE696DF806B"
+			tasks: [{
+				id: "3C20BC23DC275697"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "59F09BA233C2B0C5"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -8.0d
+			dependencies: ["66FAB7FE9583B017"]
+			id: "1A35E3D7D0B4487B"
+			tasks: [{
+				id: "28BB8891A563F752"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "3FAA1EFE159765EE"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -8.0d
+			subtitle: "when redstone and quartz..."
+			dependencies: ["3DA500DFB47195B1"]
+			size: 1.25d
+			id: "607183F339740D53"
+			tasks: [{
+				id: "5D26EFA626C5EBD1"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "5FB0807A2F79D337"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -8.0d
+			subtitle: "e-"
+			dependencies: ["319EA9276969D8F5"]
+			id: "25FCD2ADDBB496DC"
+			tasks: [{
+				id: "68E0CAA163D9B0A4"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "3FC799955495D12E"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "Any Sand Paper"
+			x: 7.0d
+			y: -9.0d
+			subtitle: "sand it down"
+			dependencies: ["3DA500DFB47195B1"]
+			id: "4DA1A61F8DB49225"
+			tasks: [{
+				id: "01F59B75893A5B69"
+				type: "item"
+				title: "Any #create:sandpaper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+			}]
+			rewards: [{
+				id: "35C31F02E90CC2CD"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			subtitle: "SHINY"
+			dependencies: [
+				"4DA1A61F8DB49225"
+				"607183F339740D53"
+			]
+			id: "319EA9276969D8F5"
+			tasks: [{
+				id: "10B944030276A96A"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+			rewards: [{
+				id: "053B24E0807EE3CC"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -10.0d
+			subtitle: "Hotter than the sun"
+			dependencies: ["55F94E8FD996F5E4"]
+			id: "24113C515CAD867E"
+			tasks: [{
+				id: "70FA0CDE20B51B7F"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "6DE115BA35537F79"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -8.5d
+			subtitle: "Cage Of rage"
+			dependencies: ["3DA500DFB47195B1"]
+			size: 1.25d
+			id: "55F94E8FD996F5E4"
+			tasks: [{
+				id: "4BFE16EFFE87A1B2"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "0A30B80A778CE78C"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			subtitle: "Drop by drop"
+			dependencies: ["1AC2ACA7417D4890"]
+			id: "60020646CA23CC44"
+			tasks: [{
+				id: "5B83845A64E2A733"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "79FEE2E14EC6C710"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			dependencies: ["5EF1B27A55CEAFAF"]
+			id: "7667A22076239BFD"
+			tasks: [{
+				id: "6C3703E55D25D8CA"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "332E79027923C24C"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["5EF1B27A55CEAFAF"]
+			id: "51A3A02EBF9DD196"
+			tasks: [{
+				id: "42D397832B6AF629"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "29CAE637A9759096"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			subtitle: "Coke!?"
+			dependencies: ["60020646CA23CC44"]
+			id: "7468B2D29B7C9545"
+			tasks: [{
+				id: "10A3FFE2F867364A"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "1EAA1AA30860EC0A"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "195672F7E3079407"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -2.5d
+			subtitle: "Blast !"
+			dependencies: ["7468B2D29B7C9545"]
+			id: "22E6DA5CC6C42369"
+			tasks: [{
+				id: "1359ADBD71A25CC3"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "3EBF004DA5FD48E0"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+				{
+					id: "0E1D50CC8857DCC0"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			subtitle: "Carbon flavored"
+			dependencies: ["22E6DA5CC6C42369"]
+			size: 1.25d
+			id: "2D3A96B33F6095C5"
+			tasks: [{
+				id: "360F8814D11BF64D"
+				type: "item"
+				item: "alltheores:steel_ingot"
+			}]
+			rewards: [{
+				id: "1017AD57953D28CE"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			subtitle: "Better than the \"Foliot\""
+			dependencies: ["24EBFB0D21208D19"]
+			id: "43EFECC08C911BAB"
+			tasks: [{
+				id: "00DD6E0FD009F750"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "7D730D80590CFE21"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -6.0d
+			id: "312639C390D39BE4"
+			tasks: [{
+				id: "6E6FF7B92E37323B"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -5.0d
+			id: "75DE620AFF4E504E"
+			tasks: [{
+				id: "77F9F0CD2DD3E8BE"
+				type: "item"
+				item: "tconstruct:seared_heater"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -7.0d
+			id: "42D5C11774A3C009"
+			tasks: [{
+				id: "5854B0258F82BCE1"
+				type: "item"
+				item: "tconstruct:seared_melter"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -6.0d
+			dependencies: [
+				"75DE620AFF4E504E"
+				"42D5C11774A3C009"
+				"312639C390D39BE4"
+			]
+			id: "49A10D4CE78264BA"
+			tasks: [{
+				id: "5D8CFDB613F4128B"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -7.0d
+			dependencies: ["49A10D4CE78264BA"]
+			id: "2ECCFE266F5F25F1"
+			tasks: [{
+				id: "6A64BAF713EABF57"
+				type: "item"
+				item: "tconstruct:seared_fuel_tank"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -6.0d
+			dependencies: ["49A10D4CE78264BA"]
+			id: "46E431C772F77AEE"
+			tasks: [{
+				id: "7C844F72C3CA07DC"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			dependencies: ["49A10D4CE78264BA"]
+			id: "3D2117ACB1AD0BE9"
+			tasks: [{
+				id: "5A71811497660EC9"
+				type: "item"
+				item: "tconstruct:seared_faucet"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["72B48F84CC2B5921"]
+			id: "2BB8C8A08E332CA7"
+			tasks: [{
+				id: "18EA3A38047D8560"
+				type: "item"
+				item: "mekanism:oredictionificator"
+			}]
+		}
+	]
+}

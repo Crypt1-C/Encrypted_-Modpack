@@ -1,0 +1,11 @@
+
+[lava]
+	#Disable Lava Fog?
+	"Disable Lava Fog" = false
+	#Lava Fog Starting Distance
+	#Range: 0.1 ~ 100.0
+	"Lava Fog Starting Distance" = 30.0
+	#Lava Fog End Distance
+	#Range: 0.1 ~ 100.0
+	"Lava Fog End Distance" = 35.0
+

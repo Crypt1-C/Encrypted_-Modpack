@@ -1,0 +1,17 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "minecraft:misc",
+  "input": [
+    {
+      "item": "chemlib:element_silicon",
+      "count": 16
+    },
+    {
+        "item": "chemlib:element_manganese",
+        "count": 4
+    }
+  ],
+  "result": {
+    "item": "refinedstorage:silicon"
+  }
+}

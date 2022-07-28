@@ -1,0 +1,843 @@
+{
+	id: "25A7CFDCDB003CA0"
+	group: "72F9B62EED0FC7BC"
+	order_index: 0
+	filename: "from_nothing"
+	title: "From !Everything_"
+	icon: "forbidden_arcanus:dark_matter"
+	subtitle: ["= From NOTHING_"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Logs"
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"Plant the sapling you got and chop down your first tree "
+				""
+				"the logs can be from any type"
+			]
+			dependencies: ["6836101875B03326"]
+			id: "3D5C58A5E7010D2C"
+			tasks: [{
+				id: "2B1E7D2911D9AA20"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "071B08D4FF87B09E"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 8
+					random_bonus: 8
+				}
+				{
+					id: "5AA3CE7C127030EE"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Any Planks"
+			x: 1.5d
+			y: 1.0d
+			description: ["Any type of planks will do "]
+			dependencies: ["3D5C58A5E7010D2C"]
+			id: "4768EAA9E51ACB89"
+			tasks: [{
+				id: "054CEAA2B7966C21"
+				type: "item"
+				title: "Any #minecraft:planks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:planks"
+					}
+				}
+				count: 16L
+			}]
+			rewards: [{
+				id: "2171EE125D28A93E"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "Any Sapling"
+			x: -1.5d
+			y: 1.0d
+			description: ["Crafting the encrypted matter results in a Sapling"]
+			dependencies: ["75A1BD24287BC82A"]
+			id: "6836101875B03326"
+			tasks: [{
+				id: "2FA06369A36FC4ED"
+				type: "item"
+				title: "Any #minecraft:saplings"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:saplings"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A34731381E44A35"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			description: ["sticks'n'planks"]
+			dependencies: ["4768EAA9E51ACB89"]
+			id: "75F5C4626B7556BC"
+			tasks: [{
+				id: "700BA451E2E391D3"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 6L
+			}]
+			rewards: [{
+				id: "52C83FF451FDF125"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			shape: "hexagon"
+			dependencies: ["75F5C4626B7556BC"]
+			id: "62C285A06E9E8886"
+			tasks: [{
+				id: "145F0CF1663A50DA"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "65A5CFD58C1AFD72"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:copper_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0B402D89B0AC883B"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Make a Crafting Table"
+			icon: "byg:bulbis_crafting_table"
+			x: 3.0d
+			y: -2.0d
+			dependencies: ["4768EAA9E51ACB89"]
+			id: "4EEFF1FCAE0AE357"
+			tasks: [{
+				id: "3F1B67BE44D183AD"
+				type: "item"
+				title: "Any #forge:workbench"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:workbench"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5457D445CBCB091B"
+				type: "item"
+				item: "create:crafting_blueprint"
+			}]
+		}
+		{
+			title: "Crafting On the Go_"
+			x: 7.5d
+			y: -2.0d
+			shape: "diamond"
+			description: ["now you can craft anywhere anytime :D"]
+			dependencies: ["4EEFF1FCAE0AE357"]
+			optional: true
+			id: "15B6A7D6E8B87006"
+			tasks: [{
+				id: "41D940AD8462D6FF"
+				type: "item"
+				item: "crafting_on_a_stick:crafting_table"
+			}]
+			rewards: [
+				{
+					id: "52F49E7B2F6CE023"
+					type: "item"
+					item: "crafting_on_a_stick:stonecutter"
+				}
+				{
+					id: "3478DFAB5D15B340"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Crafting Station"
+			icon: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_log"
+				}
+			}
+			x: 7.5d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: ["75F5C4626B7556BC"]
+			id: "63C7118E1A35CDE8"
+			tasks: [{
+				id: "6199834FF1DCAEB9"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1010567F052CAD34"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:copper_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "183DB5527AEC51B8"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["75F5C4626B7556BC"]
+			id: "06C4F7F7FCBDDB75"
+			tasks: [{
+				id: "760F23A7E9559CA3"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1EE902B528442D4E"
+					type: "item"
+					item: {
+						id: "create_stuff_additions:copper_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E2010697E79841E"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Any Leaves"
+			x: 4.5d
+			y: 1.0d
+			description: ["Using the shears harvest Some Leaves"]
+			dependencies: ["69A2AD0A3D748CDD"]
+			id: "729BB388E311A1B3"
+			tasks: [{
+				id: "76E24A40A76D87FF"
+				type: "item"
+				title: "Any #minecraft:leaves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:leaves"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B09E85CEE1ADBB1"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["shears ? out of... wood ?"]
+			dependencies: ["4768EAA9E51ACB89"]
+			id: "69A2AD0A3D748CDD"
+			tasks: [{
+				id: "252B73AB22A3EFF8"
+				type: "item"
+				item: {
+					id: "woodenshears:wooden_shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60BD929B3AF85C8E"
+					type: "item"
+					item: {
+						id: "tconstruct:kama"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.5f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.6f
+								"tconstruct:mining_speed": 4.2f
+								"tconstruct:attack_damage": 1.0f
+								"tconstruct:harvest_tier": "minecraft:stone"
+								"tconstruct:durability": 116.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:stonebound"
+									level: 3s
+								}
+								{
+									name: "tconstruct:shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_materials: [
+								"tconstruct:rock"
+								"tconstruct:rock"
+								"tconstruct:rock"
+							]
+							tic_persistent_data: {
+								abilities: 0
+								upgrades: 0
+							}
+						}
+					}
+				}
+				{
+					id: "10235FFE1A7F7FDD"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Any Barrel"
+			icon: "exnihilosequentia:crimson_barrel"
+			x: 6.0d
+			y: 2.5d
+			description: ["barrels can be used to compost any organic item and turn it into Dirt"]
+			dependencies: ["729BB388E311A1B3"]
+			optional: true
+			id: "7B098130E970F876"
+			tasks: [{
+				id: "009525968D1DCF4C"
+				type: "item"
+				title: "Any #exnihilosequentia:barrels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "10145DCEA847B4D5"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.5d
+			shape: "diamond"
+			description: ["The Building block of life... or so they say"]
+			dependencies: ["7B098130E970F876"]
+			optional: true
+			id: "4216EBB1A7231339"
+			tasks: [{
+				id: "54EAA4A2E70FF038"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "1BAFAB6D8BEC3ADA"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 8
+					random_bonus: 4
+				}
+				{
+					id: "7362BD0547E33223"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["Used to harvest worms from leaves"]
+			dependencies: ["4768EAA9E51ACB89"]
+			id: "1733BA05C8D58175"
+			tasks: [{
+				id: "1FE242BF1864AE9D"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:wooden_crook"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CD7777654A5D21D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["BUGS_ can be used to infest the code of the leaves to give you string "]
+			dependencies: ["1733BA05C8D58175"]
+			id: "024ADD6C420931C7"
+			tasks: [{
+				id: "3611B607699EF28B"
+				type: "item"
+				item: "exnihilosequentia:silkworm"
+			}]
+			rewards: [
+				{
+					id: "50CE7A6E033FBABC"
+					type: "item"
+					item: "exnihilosequentia:cooked_silkworm"
+					count: 16
+				}
+				{
+					id: "5CD074840CB7E22B"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "String "
+			x: 6.0d
+			y: -0.5d
+			description: ["worms give strings how useful"]
+			dependencies: ["024ADD6C420931C7"]
+			id: "5EFBD88284F0EC4A"
+			tasks: [{
+				id: "68D38A8FDAF17287"
+				type: "item"
+				title: "Any #forge:string"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:string"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4BB3F06B71E2451D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "Any Crucible"
+			icon: "exnihilosequentia:crimson_crucible"
+			x: 6.75d
+			y: 1.0d
+			description: ["using leaves on crucibles gives water over time"]
+			dependencies: ["729BB388E311A1B3"]
+			id: "22F05DC5D8AE5717"
+			tasks: [{
+				id: "65D55D3F8FCA1D9D"
+				type: "item"
+				title: "Any #exnihilosequentia:crucibles"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:crucibles"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20724942D00364A8"
+					type: "item"
+					item: "farmersdelight:vegetable_soup"
+					count: 8
+				}
+				{
+					id: "46CE9AB66A5F1A75"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: ["Water anyone ?"]
+			dependencies: ["22F05DC5D8AE5717"]
+			id: "051E2D9E9A2038D8"
+			tasks: [{
+				id: "5525DA67884D5D6F"
+				type: "item"
+				item: {
+					id: "woodenbucket:wooden_bucket"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Fluid: {
+							FluidName: "minecraft:water"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "14C87325E5F968CD"
+					type: "item"
+					item: "ceramicbucket:ceramic_bucket"
+				}
+				{
+					id: "40657B6E16BDEEE0"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["You can obtain Encrypted matter by [Crouching + Right Clicking] White Simulation_Blocks with empty hands"]
+			dependencies: ["12B7956525612F15"]
+			size: 1.5d
+			id: "75A1BD24287BC82A"
+			tasks: [{
+				id: "4055F8012C67C50B"
+				type: "item"
+				item: "kubejs:encrypted_matter"
+			}]
+			rewards: [{
+				id: "229AF1AB2AD8DE5E"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["Wooden Age"]
+			dependencies: ["4768EAA9E51ACB89"]
+			id: "232ABB6B255E0AD2"
+			tasks: [{
+				id: "72091D2FEF64F014"
+				type: "item"
+				icon: "kubejs:wooden_plate"
+				item: "kubejs:wooden_plate"
+				count: 4L
+			}]
+			rewards: [{
+				id: "2BA3BFD1224F5784"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.75d
+			y: 4.0d
+			description: ["Wooden Revolution !"]
+			dependencies: ["05239DA164B413ED"]
+			id: "67FDC61D4D1B5601"
+			tasks: [{
+				id: "7B2C26C938C40C2E"
+				type: "item"
+				item: "kubejs:wood_machine_frame"
+			}]
+			rewards: [{
+				id: "2C3B10D6ADC50C6E"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: ["Wooden age V2"]
+			dependencies: ["232ABB6B255E0AD2"]
+			id: "05239DA164B413ED"
+			tasks: [{
+				id: "3866964CF316D4B6"
+				type: "item"
+				icon: "kubejs:wooden_gear"
+				item: "kubejs:wooden_gear"
+			}]
+			rewards: [{
+				id: "7DAEFEBC39B51FD8"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 4.0d
+			shape: "gear"
+			description: ["you won't have any problems now that you have cobblestone for days "]
+			dependencies: [
+				"67FDC61D4D1B5601"
+				"051E2D9E9A2038D8"
+				"1528E4E1E680B268"
+			]
+			size: 1.5d
+			id: "0B2F08C65818F892"
+			tasks: [{
+				id: "0630EF4B4AD66737"
+				type: "item"
+				item: "cobblefordays:tier_1"
+			}]
+			rewards: [
+				{
+					id: "2BC7589DF12C2576"
+					type: "item"
+					item: "ironchest:gold_chest"
+				}
+				{
+					id: "065F654441938DD1"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			description: ["Devilish logs "]
+			dependencies: ["58BB0053D4E8677D"]
+			id: "3D55AB82E588907B"
+			tasks: [{
+				id: "3B1C1AB2F684C7F5"
+				type: "item"
+				item: "allthemodium:demonic_log"
+			}]
+			rewards: [
+				{
+					id: "60093B05C62FFC84"
+					type: "item"
+					item: "allthemodium:demonic_planks"
+					random_bonus: 11
+				}
+				{
+					id: "3CB248943D6EE7D8"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			shape: "hexagon"
+			description: [
+				"Ceramic Lava Buckets can be crafted using encrypted matter, demonic logs and demonic leaves"
+				""
+				"BE CARFUL! Wooden Lava buckets burn you if you leave them in your inventory"
+				""
+				"Ceramic Lava Buckets break once you use them"
+			]
+			dependencies: ["25A19C9F2FC6A901"]
+			id: "1528E4E1E680B268"
+			tasks: [{
+				id: "4F2BB1EC7B5AB55A"
+				type: "item"
+				item: {
+					id: "ceramicbucket:ceramic_bucket"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "minecraft:lava"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "560C3DA1828AC372"
+					type: "item"
+					item: "engineersdecor:sign_firehazard"
+				}
+				{
+					id: "627295B2D8FACE7D"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			description: ["can leaves be evil ?"]
+			dependencies: ["3D55AB82E588907B"]
+			id: "25A19C9F2FC6A901"
+			tasks: [{
+				id: "2233B1CB3E956ED9"
+				type: "item"
+				item: "allthemodium:demonic_leaves"
+			}]
+			rewards: [
+				{
+					id: "1670457A37B525DF"
+					type: "item"
+					item: "tconstruct:blood_cake"
+				}
+				{
+					id: "7C48E6D7FD65C61E"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "More Saplings"
+			x: 1.0d
+			y: 3.5d
+			description: ["Diffrent Saplings can be crafted using Encrypted Matter"]
+			dependencies: ["6836101875B03326"]
+			id: "58BB0053D4E8677D"
+			tasks: [
+				{
+					id: "0BA9519057A4C8FF"
+					type: "checkmark"
+					title: "got it"
+				}
+				{
+					id: "04877E5DEF93A1EA"
+					type: "item"
+					item: "forbidden_arcanus:cherrywood_sapling"
+				}
+			]
+			rewards: [{
+				id: "4249A2C7D5D8CF59"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			shape: "hexagon"
+			dependencies: ["5EFBD88284F0EC4A"]
+			id: "3C1D6883AD72ED9F"
+			tasks: [{
+				id: "66824AF16CF9B563"
+				type: "item"
+				item: "minecraft:white_wool"
+			}]
+			rewards: [{
+				id: "71910E2E8BA9FE02"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "Bed (Any Color)"
+			x: 9.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["zzzzzzzzzzz"]
+			dependencies: ["3C1D6883AD72ED9F"]
+			optional: true
+			id: "5E7EF8ED31BD3193"
+			tasks: [{
+				id: "6686F2E04B115648"
+				type: "item"
+				title: "Any #minecraft:beds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}]
+			rewards: [{
+				id: "7268A7BC89D67300"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "minecraft:misc",
+  "ingredient": {
+    "item": "kubejs:new_compound_ethylene"
+  },
+  "inputCount": 8,
+  "result": {
+    "fluid": "mekanism:ethene",
+    "amount": 500
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "alchemistry:dissolver",
+  "group": "minecraft:misc",
+  "input": {
+    "item": "compressium:cobblestone_3"
+  },
+  "output": {
+    "rolls": 729,
+    "relativeProbability": true,
+    "groups": [
+      {
+        "probability": 350.0,
+        "stacks": [
+          {
+            "item": "minecraft:air"
+          }
+        ]
+      },
+      {
+          "probability": 5.0,
+          "stacks": [
+            {
+              "item": "chemlib:element_aluminum"
+            }
+          ]
+      },
+      {
+          "probability": 8.0,
+          "stacks": [
+            {
+              "item": "chemlib:element_iron"
+            }
+          ]
+      },
+      {
+          "probability": 5.0,
+          "stacks": [
+            {
+              "item": "chemlib:element_gold"
+            }
+          ]
+      },
+      {
+          "probability": 16.0,
+          "stacks": [
+            {
+              "item": "chemlib:compound_silicon_dioxide"
+            }
+          ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+
+#General settings
+[general]
+	#Enable Full Stack of Ender Pearls [Default: false]
+	ender_pearl_stacks = false
+	#Enable Full Stack of Snow Balls [Default: false]
+	snowball_stacks = false
+	#Enable Full Stack of Empty Buckets [Default: false]
+	empty_bucket_stacks = true
+
+	#Recipes settings
+	[general.recipes]
+		#Enable Clay Recipe [Default: true]
+		clay_recipe = true
+		#Enable Snow Recipe [Default: true]
+		snowball_recipe = true
+		#Enable Quartz Recipe [Default: true]
+		quartz_recipe = true
+		#Enable Glowstone Recipe [Default: true]
+		glowstone_recipe = true
+

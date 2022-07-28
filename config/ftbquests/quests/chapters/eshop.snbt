@@ -1,0 +1,326 @@
+{
+	id: "41A2682B5803F9EA"
+	group: ""
+	order_index: 2
+	filename: "eshop"
+	title: "E-shop"
+	icon: "farmingforblockheads:market"
+	disable_toast: true
+	subtitle: ["Spend Your CryptoCurrency"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Angel Ring"
+			icon: "angelring:itemring"
+			x: -11.5d
+			y: 0.0d
+			subtitle: "Fly like a bird"
+			description: ["Grants Creative Flight"]
+			id: "768CF1637596AC7E"
+			tasks: [{
+				id: "3392C821B208F0A9"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6153D2C410866D1A"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+		}
+		{
+			title: "Broken Ankh"
+			icon: "nameless_trinkets:broken_ankh"
+			x: -11.0d
+			y: -1.0d
+			description: ["Acts like a totem of undying but with a 30 minutes cooldown"]
+			id: "1F97B0116AEA4280"
+			tasks: [{
+				id: "396C4A97F843C335"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "466B8BC0DBB36904"
+				type: "item"
+				item: "nameless_trinkets:broken_ankh"
+			}]
+		}
+		{
+			icon: "thermal:machine_cycle_augment"
+			disable_toast: true
+			x: -8.25d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Reset The shop!"
+			size: 2.0d
+			id: "33F8F94F4ACD4529"
+			tasks: [{
+				id: "297174260BF3C91B"
+				type: "checkmark"
+				title: "Reset Shop"
+			}]
+			rewards: [{
+				id: "7158B3A79936F8AB"
+				type: "command"
+				auto: "enabled"
+				command: "/ftbquests change_progress @s reset 41A2682B5803F9EA"
+				player_command: true
+			}]
+		}
+		{
+			title: "Experience Battery"
+			icon: "nameless_trinkets:experience_battery"
+			x: -10.5d
+			y: -2.0d
+			description: ["Leveling Up gives extra experience"]
+			id: "55D6B45D8BC1879B"
+			tasks: [{
+				id: "49230CF670B4DB65"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "704568D792B5E5E3"
+				type: "item"
+				item: "nameless_trinkets:experience_battery"
+			}]
+		}
+		{
+			title: "Speed Force"
+			icon: "nameless_trinkets:speed_force"
+			x: -11.0d
+			y: 1.0d
+			description: ["+200.0% speed"]
+			id: "0E255DD4A40DDA05"
+			tasks: [{
+				id: "3CB8A1A90CAA5BF0"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "009840F7B30A8FAA"
+				type: "item"
+				item: "nameless_trinkets:speed_force"
+			}]
+		}
+		{
+			title: "Reverse Card"
+			icon: "nameless_trinkets:reverse_card"
+			x: -10.5d
+			y: 2.0d
+			description: ["50.0% chance to damage the mob that has hurt you with it's own damage"]
+			id: "12DCCE5D64D12729"
+			tasks: [{
+				id: "04AEB119CF2D8174"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "22FE7AD9BC793855"
+				type: "item"
+				item: "nameless_trinkets:reverse_card"
+			}]
+		}
+		{
+			title: "Moon Stone"
+			icon: "nameless_trinkets:moon_stone"
+			x: -6.0d
+			y: -2.0d
+			description: [
+				"-87.5% Gravity"
+				""
+				"No fall damage"
+			]
+			id: "2A07304048807BD6"
+			tasks: [{
+				id: "016A336842AC5261"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "32919665BD5E37CD"
+				type: "item"
+				item: "nameless_trinkets:moon_stone"
+			}]
+		}
+		{
+			title: "Blaze Nucleus"
+			icon: "nameless_trinkets:blaze_nucleus"
+			x: -5.5d
+			y: -1.0d
+			description: [
+				"Fire Immunity"
+				""
+				"Your Attacks Ignite"
+			]
+			id: "0C1E4D50D6EB3885"
+			tasks: [{
+				id: "08F23876A4BD65F9"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "28F558BD345473BB"
+				type: "item"
+				item: "nameless_trinkets:blaze_nucleus"
+			}]
+		}
+		{
+			title: "Reforger"
+			icon: "nameless_trinkets:reforger"
+			x: -5.0d
+			y: 0.0d
+			description: ["Items are repaired over time"]
+			id: "2C71EE7FF11498F5"
+			tasks: [{
+				id: "2A718BA2F643ED3F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 200L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0D7594DD40095004"
+				type: "item"
+				item: "nameless_trinkets:reforger"
+			}]
+		}
+		{
+			title: "Fertilizer"
+			icon: "nameless_trinkets:fertilizer"
+			x: -5.5d
+			y: 1.0d
+			description: ["Crops and plants grow arround you"]
+			id: "0F24C41BB913B2D2"
+			tasks: [{
+				id: "7E3F53627608FA69"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 150L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "075E98247FD6396B"
+				type: "item"
+				item: "nameless_trinkets:fertilizer"
+			}]
+		}
+		{
+			title: "Blindfold"
+			icon: "nameless_trinkets:blindfold"
+			x: -6.5d
+			y: 2.0d
+			description: [
+				"You are invisible"
+				""
+				"Mobs only detect you from very close"
+			]
+			id: "6FB29303C4FD3236"
+			tasks: [{
+				id: "3096832796F383DE"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 125L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "04B34D0B6230953E"
+				type: "item"
+				item: "nameless_trinkets:blindfold"
+			}]
+		}
+		{
+			title: "Effecieny III"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+			x: -8.25d
+			y: 2.25d
+			shape: "hexagon"
+			size: 1.5d
+			id: "3E9C0E5249E92A3B"
+			tasks: [{
+				id: "09A75CD791ED4152"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5871C2A3655B22DE"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:efficiency"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "Silk Touch"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+			x: -8.25d
+			y: -2.25d
+			size: 1.5d
+			id: "37ABB3D2282CD5FD"
+			tasks: [{
+				id: "4A123B6C0E8786D6"
+				type: "item"
+				item: "kubejs:crypto_currency"
+				count: 50L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "29121C9D98CBD527"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:silk_touch"
+						}]
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,14 @@
+
+[general]
+	#Overrides are dependent on potion effects
+	"Potion Active" = true
+	#Creative Mode Always Removes Fog
+	"Creative Overrides" = false
+	#Disable the fire overlay when you're burning
+	"Disable Fire Overlay" = false
+	#Offset the fire overlay, negative values means down and positive is up.
+	#Range: -1.0 ~ 1.0
+	"Fire Overlay Offset" = -0.25
+	#Disable the water overlay when you're in water
+	"Disable Water Overlay" = false
+

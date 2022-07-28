@@ -1,0 +1,45 @@
+{
+    "type": "alchemistry:combiner",
+    "group": "minecraft:misc",
+    "input": [
+      {
+        "item": "chemlib:element_hydrogen",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_oxygen",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_hydrogen",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_oxygen",
+        "count": 64
+      },
+      {
+        "item": "minecraft:egg",
+        "count": 1
+      },
+      {
+        "item": "chemlib:element_oxygen",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_hydrogen",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_oxygen",
+        "count": 64
+      },
+      {
+        "item": "chemlib:element_hydrogen",
+        "count": 64
+      }
+    ],
+    "result": {
+      "item": "mob_grinding_utils:golden_egg"
+    }
+  }

@@ -1,0 +1,849 @@
+{
+	id: "484CDDC472FFA145"
+	group: "72F9B62EED0FC7BC"
+	order_index: 3
+	filename: "mystical_indeed"
+	title: "Magicae "
+	icon: {
+		id: "occultism:book_of_binding_bound_djinni"
+		Count: 1b
+		tag: {
+			spiritName: "Azakcloarc"
+		}
+	}
+	subtitle: ["Magic"]
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Do demons dream ?"
+			dependencies: ["634DD0127AC97172"]
+			id: "2B1CCB9E3F6679AC"
+			tasks: [{
+				id: "4DFBF8035AB16F9A"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [
+				{
+					id: "5384F56E218867B6"
+					type: "item"
+					item: "occultism:datura"
+				}
+				{
+					id: "0426C9A87F955CCA"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			title: "Spirit fire"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Fire but purple"
+			description: ["spirit fire is made by lighting demon's fruit on fire"]
+			dependencies: ["2B1CCB9E3F6679AC"]
+			id: "4751865817E92F79"
+			tasks: [{
+				id: "5E82D1CDB604DA0A"
+				type: "checkmark"
+				icon: "occultism:spirit_fire"
+			}]
+			rewards: [
+				{
+					id: "652952FB16AAAC82"
+					type: "item"
+					item: "occultism:spirit_lantern"
+					count: 4
+				}
+				{
+					id: "0015C65943A29535"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Can be Obtained through combining diffrent kinds of chemicals"
+			dependencies: ["5FE402368B5DB3D7"]
+			id: "634DD0127AC97172"
+			tasks: [{
+				id: "5143EEE6D745F35C"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+			rewards: [
+				{
+					id: "04AA0E5DAB8F1ECA"
+					type: "item"
+					item: "occultism:dictionary_of_spirits"
+				}
+				{
+					id: "2549DB48AE482400"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["4751865817E92F79"]
+			id: "02154E9DF5D802BC"
+			tasks: [{
+				id: "0A3C0AD50F45C305"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+			rewards: [{
+				id: "5410B44973B75009"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			title: "Otherworld sapling"
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["4751865817E92F79"]
+			id: "0BB97D1428BCC8E4"
+			tasks: [{
+				id: "273428378F5605B1"
+				type: "item"
+				title: "Any #occultism:saplings/otherworld"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "occultism:saplings/otherworld"
+					}
+				}
+			}]
+			rewards: [{
+				id: "77AF5086E23895DA"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["0BB97D1428BCC8E4"]
+			id: "49AFD95386E1952D"
+			tasks: [{
+				id: "28DDFDA6347BB949"
+				type: "item"
+				item: "occultism:otherworld_log"
+			}]
+			rewards: [{
+				id: "76CC7A92505DAE14"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.0d
+			dependencies: ["49AFD95386E1952D"]
+			id: "3C9BEEC83DEAAC63"
+			tasks: [{
+				id: "694BD126F7AEC2B5"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+			rewards: [{
+				id: "290DCAB5FEE89827"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			dependencies: ["02154E9DF5D802BC"]
+			id: "0F68C547272F7E92"
+			tasks: [{
+				id: "042DCCB193C28265"
+				type: "item"
+				item: "occultism:burnt_otherstone"
+			}]
+			rewards: [{
+				id: "6CA90B370DD80C93"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: [
+				"0F68C547272F7E92"
+				"3C9BEEC83DEAAC63"
+			]
+			id: "741590B8F8611917"
+			tasks: [{
+				id: "468425A75ED72E39"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
+			rewards: [{
+				id: "4C788E3F1363F689"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.5d
+			dependencies: ["4751865817E92F79"]
+			id: "3444679EF00AA3B0"
+			tasks: [{
+				id: "791BDECEF4844A37"
+				type: "item"
+				item: "occultism:purified_ink"
+			}]
+			rewards: [{
+				id: "0101A54230A0152F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["3444679EF00AA3B0"]
+			id: "7312A08BC35E567B"
+			tasks: [{
+				id: "5F55DCC69D40A3E1"
+				type: "item"
+				item: "occultism:book_of_binding_foliot"
+			}]
+			rewards: [{
+				id: "71A63C72F1F57D34"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["02154E9DF5D802BC"]
+			id: "1C4E95BC643258C8"
+			tasks: [{
+				id: "65DBE62E69742A0B"
+				type: "item"
+				item: "occultism:sacrificial_bowl"
+				count: 5L
+			}]
+			rewards: [{
+				id: "52A359F8ABA37B33"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 3.0d
+			dependencies: ["1C4E95BC643258C8"]
+			id: "78F619ABA021D434"
+			tasks: [{
+				id: "0F0A77156F3E139F"
+				type: "item"
+				item: "occultism:golden_sacrificial_bowl"
+			}]
+			rewards: [{
+				id: "4AFE7F9DA71AC134"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 6.0d
+			dependencies: ["54AA60A28A795CC6"]
+			id: "03241CC25F0AB160"
+			tasks: [{
+				id: "07CABEF41859DB39"
+				type: "item"
+				item: "occultism:candle_white"
+			}]
+			rewards: [{
+				id: "17794BDCB6A0B843"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["741590B8F8611917"]
+			id: "52694A29448609A1"
+			tasks: [{
+				id: "080BADCA38B1B199"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "722683F252B4BF61"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 15.75d
+			y: 3.0d
+			shape: "diamond"
+			subtitle: "Shiny"
+			dependencies: ["5851FF0B25F12972"]
+			size: 1.5d
+			id: "164BE99067597895"
+			tasks: [{
+				id: "14615AAD9E928199"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+			}]
+			rewards: [
+				{
+					id: "65DDC94ECA71509C"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+				}
+				{
+					id: "07519B96CD12C088"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 4.0d
+			subtitle: "Golden Dust "
+			dependencies: [
+				"164BE99067597895"
+				"52694A29448609A1"
+				"78F619ABA021D434"
+				"03241CC25F0AB160"
+				"7312A08BC35E567B"
+			]
+			id: "07F59BE228F4E17A"
+			tasks: [{
+				id: "37CB6224C4506CE9"
+				type: "item"
+				item: "naturesaura:gold_powder"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4CBB6A3E8498B950"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["5851FF0B25F12972"]
+			id: "54AA60A28A795CC6"
+			tasks: [{
+				id: "617CDC936638D6CC"
+				type: "item"
+				item: "occultism:tallow"
+			}]
+			rewards: [{
+				id: "2CFC523073760318"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 17.0d
+			y: 4.0d
+			subtitle: "Using The Air arround"
+			dependencies: ["164BE99067597895"]
+			id: "2743E28F0C240124"
+			tasks: [
+				{
+					id: "49ECBFF81DB8E03D"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "6B801AD732874DA9"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+			rewards: [{
+				id: "370350C2948E3413"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 15.75d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "Made With Magic™"
+			dependencies: [
+				"07F59BE228F4E17A"
+				"2743E28F0C240124"
+			]
+			size: 1.5d
+			id: "421E7B2D832C1345"
+			tasks: [{
+				id: "4BBB0846B22618CA"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "6A5D99D3F283F44D"
+					type: "item"
+					item: "create:andesite_alloy"
+					random_bonus: 7
+				}
+				{
+					id: "34329CA40A65F452"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["5851FF0B25F12972"]
+			size: 1.5d
+			id: "5FE402368B5DB3D7"
+			tasks: [{
+				id: "451E53E397499B1D"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [
+				{
+					id: "211FD326AFBA0F48"
+					type: "item"
+					item: "hexerei:blood_bottle"
+				}
+				{
+					id: "4AC417B2F70776A4"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			shape: "diamond"
+			subtitle: "Guide through Mana And Artifice"
+			description: ["Note: Mana and artifice's flowers can be found in the mining dimension"]
+			dependencies: ["5851FF0B25F12972"]
+			size: 2.0d
+			id: "031F282A6C8C4E03"
+			tasks: [{
+				id: "595351307F4CC031"
+				type: "item"
+				item: "mna:guide_book"
+			}]
+			rewards: [{
+				id: "6CA505B37730114C"
+				type: "item"
+				item: "mna:vinteum_dust"
+				count: 2
+				random_bonus: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			description: ["can be found in the mining dimension"]
+			dependencies: ["031F282A6C8C4E03"]
+			id: "056198A5FF12A297"
+			tasks: [{
+				id: "4C671E77F63827B6"
+				type: "item"
+				item: "mna:vinteum_dust"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			subtitle: "Vinteum ...tasty"
+			dependencies: ["056198A5FF12A297"]
+			id: "13896DBD5C483252"
+			tasks: [{
+				id: "4B2D01B3F440CF06"
+				type: "item"
+				item: "mna:vinteum_coated_iron"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.5d
+			dependencies: ["13896DBD5C483252"]
+			id: "4F2036A777DAF878"
+			tasks: [{
+				id: "13AC47C99DF8807D"
+				type: "item"
+				item: "mna:vinteum_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.5d
+			subtitle: "..."
+			dependencies: ["031F282A6C8C4E03"]
+			id: "2D526616EA2BF077"
+			tasks: [{
+				id: "0811C38206C3ADD4"
+				type: "item"
+				item: {
+					id: "mna:stone_rune_blank"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.0d
+			subtitle: "more like a Furnace but not really"
+			dependencies: ["2D526616EA2BF077"]
+			id: "7E825F5FE0EEDFCC"
+			tasks: [{
+				id: "427933077FBC44DA"
+				type: "item"
+				item: "mna:runeforge"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 14.5d
+			subtitle: "ashs of arcane ?"
+			dependencies: ["7E825F5FE0EEDFCC"]
+			id: "732FDB44932D68A9"
+			tasks: [{
+				id: "2FE4FC21A150B0B4"
+				type: "item"
+				item: "mna:arcane_ash"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.5d
+			subtitle: "HOT"
+			dependencies: ["7E825F5FE0EEDFCC"]
+			id: "700BC29ED3E9DBB0"
+			tasks: [{
+				id: "1C0938783494EDD1"
+				type: "item"
+				item: "mna:superheated_vinteum_ingot"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 11.0d
+			subtitle: "fancy drawing"
+			dependencies: ["4F2036A777DAF878"]
+			id: "378B712C7FC777DE"
+			tasks: [{
+				id: "4A480D7F7D4E9E3D"
+				type: "item"
+				item: {
+					id: "mna:manaweaver_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.5d
+			dependencies: ["378B712C7FC777DE"]
+			id: "1B00F8AB2FCDA2A0"
+			tasks: [{
+				id: "62A9703C3CDB9497"
+				type: "item"
+				item: "mna:decoration/arcane_sandstone"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 12.5d
+			subtitle: "Crafting with shapes"
+			dependencies: ["1B00F8AB2FCDA2A0"]
+			id: "32D00414C6FD5920"
+			tasks: [{
+				id: "689A114A7C3DA7C1"
+				type: "item"
+				item: "mna:manaweaving_altar"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 12.5d
+			subtitle: "Silver but fake ?"
+			dependencies: ["378B712C7FC777DE"]
+			id: "7A52A82504A11AAF"
+			tasks: [{
+				id: "3C492572A803DF79"
+				type: "item"
+				item: "mna:transmuted_silver"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 14.5d
+			dependencies: ["7A52A82504A11AAF"]
+			id: "2A8C5C7AF1CF85B7"
+			tasks: [{
+				id: "49D49B7296F894E4"
+				type: "item"
+				item: "mna:ornate_table"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 16.5d
+			dependencies: ["2A8C5C7AF1CF85B7"]
+			id: "787139899286EC54"
+			tasks: [{
+				id: "362D960846B43479"
+				type: "item"
+				item: "mna:occulus"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 14.5d
+			dependencies: ["7A52A82504A11AAF"]
+			id: "1E5E1BB0DF86854B"
+			tasks: [{
+				id: "2C3DED68F229A3FA"
+				type: "item"
+				item: "mna:inscription_table"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 14.5d
+			subtitle: "When you brake bones..."
+			dependencies: ["7E825F5FE0EEDFCC"]
+			id: "571E97DA559F086C"
+			tasks: [{
+				id: "7DFC259CB2AFDE20"
+				type: "item"
+				item: "mna:bone_ash"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 17.5d
+			subtitle: "better than ink sacs"
+			dependencies: ["756745827AC1E9E7"]
+			dependency_requirement: "one_completed"
+			id: "603903F8C434E64D"
+			tasks: [{
+				id: "7197BA372897B188"
+				type: "item"
+				item: {
+					id: "mna:arcanist_ink"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 17.5d
+			subtitle: "paper but for SPELLS"
+			hide_dependency_lines: true
+			dependencies: ["031F282A6C8C4E03"]
+			id: "5828BCA2397E4C0B"
+			tasks: [{
+				id: "28377900F1CC9E71"
+				type: "item"
+				item: "mna:vellum"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 17.5d
+			shape: "diamond"
+			dependencies: [
+				"5828BCA2397E4C0B"
+				"732FDB44932D68A9"
+				"603903F8C434E64D"
+				"688FF07D28D16001"
+			]
+			size: 1.5d
+			id: "617907FD796364BD"
+			tasks: [{
+				id: "289140F92FCAEE11"
+				type: "item"
+				item: {
+					id: "mna:spell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 16.0d
+			hide_dependency_lines: true
+			dependencies: ["732FDB44932D68A9"]
+			id: "756745827AC1E9E7"
+			tasks: [{
+				id: "4E9B37082936A2D2"
+				type: "item"
+				item: "mna:purified_vinteum_dust"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 16.0d
+			dependencies: ["571E97DA559F086C"]
+			id: "688FF07D28D16001"
+			tasks: [{
+				id: "541AE92F4B9A8A18"
+				type: "item"
+				item: {
+					id: "mna:wizard_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 9.25d
+			shape: "diamond"
+			subtitle: "Guide Through Mahou Tsukai"
+			size: 2.0d
+			id: "60695B92E5805C10"
+			tasks: [{
+				id: "3D26A9FC956AE889"
+				type: "item"
+				item: "mahoutsukai:guidebook"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 11.5d
+			subtitle: "Self Sacrifice (maybe)"
+			dependencies: ["60695B92E5805C10"]
+			id: "065974BD524BEAFA"
+			tasks: [{
+				id: "3D7BAC7FA24E8B1F"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 13.0d
+			subtitle: "Where to put my blood ?"
+			dependencies: ["065974BD524BEAFA"]
+			id: "415B7F3A45B019D1"
+			tasks: [{
+				id: "58722DC7254CDD5E"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+			}]
+		}
+		{
+			title: "Blood Mahoujin"
+			x: 16.0d
+			y: 14.5d
+			subtitle: "Magic from Blood"
+			dependencies: ["415B7F3A45B019D1"]
+			id: "64A9AA9C6064A943"
+			tasks: [{
+				id: "1185D6AF6B3AA8ED"
+				type: "observation"
+				icon: "mahoutsukai:mahoujin_projector"
+				timer: 0L
+				observe_type: 0
+				to_observe: "mahoutsukai:mahoujin"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 16.0d
+			subtitle: "Light"
+			dependencies: ["64A9AA9C6064A943"]
+			id: "67647F710700B425"
+			tasks: [{
+				id: "551761F1E4D0723F"
+				type: "item"
+				item: {
+					id: "mahoutsukai:caliburn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 16.0d
+			shape: "pentagon"
+			subtitle: "Darkness"
+			dependencies: ["67647F710700B425"]
+			optional: true
+			id: "1F272D2605087FD8"
+			tasks: [{
+				id: "10E744E5368431C8"
+				type: "item"
+				item: {
+					id: "mahoutsukai:morgan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+		}
+	]
+}

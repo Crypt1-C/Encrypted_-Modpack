@@ -1,0 +1,26 @@
+
+[overworld]
+	#Disable Overworld Fog?
+	"Disable Overworld Fog" = false
+	#Overworld Fog Starting Distance
+	#Range: 0.1 ~ 100.0
+	"Overworld Fog Starting Distance" = 0.65
+	#Overworld Fog End Distance
+	#Range: 0.1 ~ 100.0
+	"Overworld Fog End Distance" = 0.7
+	#Readds the void fog that was removed in 1.8
+	"Enable Void Fog" = false
+	#This is so you can adjust the starting distance of the fog
+	#Range: 0.001 ~ 10.0
+	"Void Fog Starting Distance" = 0.02
+	#This is so you can adjust the ending distance of the fog
+	#Range: 0.001 ~ 10.0
+	"Void Fog End Distance" = 0.42
+	#At what Y-level should the fog active on
+	#Range: -64 ~ 319
+	"Y-Level Activation" = 0
+	#Readds the void particles that was removed in 1.8
+	"Enable Void Particles" = false
+	#If the player is in a skylight level of 8, the fog disappears
+	"Void scared of sky" = true
+

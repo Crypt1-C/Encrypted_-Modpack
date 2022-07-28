@@ -1,0 +1,11 @@
+{
+  "name": "Hydrogen",
+  "colors": [
+    "0000c4",
+    "000074"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_hydrogen"
+  },
+  "inUltimateSingularity": true
+}

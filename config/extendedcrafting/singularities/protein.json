@@ -1,0 +1,11 @@
+{
+  "name": "Protein",
+  "colors": [
+    "6e5310",
+    "332709"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_protein"
+  },
+  "inUltimateSingularity": true
+}

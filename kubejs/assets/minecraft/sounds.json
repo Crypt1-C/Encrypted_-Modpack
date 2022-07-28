@@ -1,0 +1,14 @@
+{
+  "ui.button.click": {
+    "sounds": [
+      "custom/click"
+    ],
+	"replace": true
+  },
+  "ui.toast.challenge_complete": {
+    "sounds": [
+      "custom/challenge"
+    ],
+  "replace": true
+  }
+}

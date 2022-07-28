@@ -1,0 +1,26 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "minecraft:misc",
+  "input": [
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "chemlib:compound_cellulose",
+      "count": 8
+    },
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "minecraft:air"
+    },
+    {
+        "item": "chemlib:element_gold",
+        "count": 4
+    }
+  ],
+  "result": {
+    "item": "naturesaura:gold_leaf"
+  }
+}

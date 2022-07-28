@@ -1,0 +1,12 @@
+{
+    "type": "alchemistry:liquifier",
+    "group": "minecraft:misc",
+    "ingredient": {
+      "item": "chemlib:compound_protein"
+    },
+    "inputCount": 8,
+    "result": {
+      "fluid": "industrialforegoing:meat",
+      "amount": 500
+    }
+  }

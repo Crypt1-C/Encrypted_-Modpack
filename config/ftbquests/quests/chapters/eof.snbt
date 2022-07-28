@@ -1,0 +1,384 @@
+{
+	id: "30E113FF85896CBA"
+	group: "72F9B62EED0FC7BC"
+	order_index: 7
+	filename: "eof"
+	title: "EOF_"
+	icon: "extendedcrafting:ultimate_singularity"
+	subtitle: ["End Of File_ (Endgame)"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "Chemical Singularity"
+			dependencies: [
+				"0483E5DDB5A66C2C"
+				"12FE4B465745DDCC"
+			]
+			id: "0C66E4BF00E56959"
+			tasks: [{
+				id: "739D2AF9EC24DBD8"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+			rewards: [{
+				id: "08DC7F467E48F237"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "The Ultimate Chemistry Ingot"
+			dependencies: ["0483E5DDB5A66C2C"]
+			id: "37AFFA895333F003"
+			tasks: [{
+				id: "3B7B2ABCAA23F49B"
+				type: "item"
+				item: "extendedcrafting:the_ultimate_ingot"
+			}]
+			rewards: [{
+				id: "4F40F1ABE33EA5E3"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["4AE4CEAEB62AE013"]
+			id: "0483E5DDB5A66C2C"
+			tasks: [{
+				id: "163190146923DF0E"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "5F16F82D81A0BA65"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			shape: "rsquare"
+			subtitle: "still isn't enough"
+			dependencies: [
+				"37AFFA895333F003"
+				"0C66E4BF00E56959"
+				"1E2940C7F110A1AB"
+				"65F2BD6A4068C6D5"
+				"6DE882C6A0204E58"
+			]
+			id: "27962F25F073B494"
+			tasks: [{
+				id: "03312FE3445007E7"
+				type: "item"
+				item: "pneumaticcraft:creative_upgrade"
+			}]
+			rewards: [{
+				id: "221C9021B5D21B58"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.25d
+			shape: "diamond"
+			dependencies: [
+				"33B62C9260727BD1"
+				"38803A2B53D44B14"
+			]
+			size: 1.5d
+			id: "07FB85878BA0B515"
+			tasks: [{
+				id: "0D683C043750B0DC"
+				type: "item"
+				item: "extendedcrafting:frame"
+			}]
+			rewards: [{
+				id: "6812C9905FA6A6DF"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			shape: "octagon"
+			dependencies: ["07FB85878BA0B515"]
+			id: "12FE4B465745DDCC"
+			tasks: [{
+				id: "4E28971B8901B342"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+			rewards: [{
+				id: "2B18FD7975DF912D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["27962F25F073B494"]
+			id: "37CFE3C668E3D4C1"
+			tasks: [{
+				id: "4599873AE2A5492A"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+			rewards: [{
+				id: "24DFF106D6D9DAE9"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["27962F25F073B494"]
+			id: "1424CBE9CE95C08E"
+			tasks: [{
+				id: "300E309A24CF94F8"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+			rewards: [{
+				id: "5031FBE436EAF538"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["27962F25F073B494"]
+			id: "204EB50D482DC090"
+			tasks: [{
+				id: "71269EE85BE2AD3D"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+			rewards: [{
+				id: "55BE36177B4D7FD1"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["27962F25F073B494"]
+			id: "41E88EF27008EE55"
+			tasks: [{
+				id: "76A9B15318D710CD"
+				type: "item"
+				item: "createaddition:creative_energy"
+			}]
+			rewards: [{
+				id: "04C346CCE1BEADE8"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["7E767B536CE4F64E"]
+			id: "7E05974CA0BBEEFA"
+			tasks: [{
+				id: "1BD98769D460E158"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+			rewards: [{
+				id: "661BA9E207BF3FDB"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["7E05974CA0BBEEFA"]
+			id: "7896780858DE58C9"
+			tasks: [{
+				id: "27427EAB765FA325"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+			rewards: [{
+				id: "408D24833CE41B3F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			dependencies: ["7896780858DE58C9"]
+			id: "4AE4CEAEB62AE013"
+			tasks: [{
+				id: "78562038388D1C40"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+			rewards: [{
+				id: "4A3ED216E654F994"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["0C3900F6FF34D93C"]
+			id: "33B62C9260727BD1"
+			tasks: [{
+				id: "0D5F45782A26A6B7"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+			rewards: [{
+				id: "19F19BD3E7758638"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.25d
+			y: -5.0d
+			shape: "diamond"
+			dependencies: ["0C3900F6FF34D93C"]
+			id: "38803A2B53D44B14"
+			tasks: [{
+				id: "40A2A50E93FB9E1E"
+				type: "item"
+				item: "extendedcrafting:black_iron_slate"
+			}]
+			rewards: [{
+				id: "72EC3DE46285B94A"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["0C3900F6FF34D93C"]
+			id: "7E767B536CE4F64E"
+			tasks: [{
+				id: "5823E03D0477A23F"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+			rewards: [{
+				id: "492FDC7CA124FA4A"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			shape: "circle"
+			subtitle: "gg"
+			dependencies: [
+				"37CFE3C668E3D4C1"
+				"204EB50D482DC090"
+				"41E88EF27008EE55"
+				"1424CBE9CE95C08E"
+			]
+			size: 2.0d
+			id: "28C0420A66354FAA"
+			tasks: [{
+				id: "677BE113924D5433"
+				type: "item"
+				item: "storagedrawers:creative_vending_upgrade"
+			}]
+			rewards: [{
+				id: "0B09B02D92987DC4"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["0C3900F6FF34D93C"]
+			id: "65F2BD6A4068C6D5"
+			tasks: [{
+				id: "611FFB1C8A4BA9F2"
+				type: "item"
+				item: "extendedcrafting:crafting_core"
+			}]
+			rewards: [{
+				id: "6C71D381FB043656"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["0C3900F6FF34D93C"]
+			id: "1E2940C7F110A1AB"
+			tasks: [{
+				id: "2E1ABA700082889B"
+				type: "item"
+				item: "extendedcrafting:pedestal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "37D104B170535FED"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "circle"
+			subtitle: "when the..."
+			dependencies: ["45AF6470A6FD98CD"]
+			id: "6DE882C6A0204E58"
+			tasks: [{
+				id: "1C8CB1C1BEBAB517"
+				type: "item"
+				item: "kubejs:creative_essence"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["0C3900F6FF34D93C"]
+			id: "45AF6470A6FD98CD"
+			tasks: [{
+				id: "07D0920065BFA30D"
+				type: "item"
+				item: "kubejs:encrypted_ingot"
+				count: 2L
+			}]
+			rewards: [{
+				id: "40814D0973CE6228"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+	]
+}

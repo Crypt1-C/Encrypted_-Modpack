@@ -1,0 +1,11 @@
+{
+  "name": "Methane",
+  "colors": [
+    "a41994",
+    "6d1162"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_methane"
+  },
+  "inUltimateSingularity": true
+}

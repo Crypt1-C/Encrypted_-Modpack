@@ -1,0 +1,11 @@
+
+["Get New Curios Slot %"]
+	#Range: 0 ~ 100
+	"new slot probability" = 10
+
+["Rage Mind Particles"]
+	"Show particles?" = true
+
+["Get fragments by destroying Trinkets?"]
+	"Get Fragments?" = true
+

@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "chemlib:element_lithium"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:sky_stone_block"
+    }
+  ]
+}

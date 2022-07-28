@@ -1,0 +1,33 @@
+{
+  "type": "alchemistry:combiner",
+  "group": "minecraft:misc",
+  "input": [
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "minecraft:air"
+    },
+    
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "chemlib:element_calcium",
+      "count": 1
+    },
+    {
+      "item": "chemlib:element_fluorine",
+      "count": 2
+    }
+  ],
+  "result": {
+    "item": "mekanism:fluorite_gem"
+  }
+}

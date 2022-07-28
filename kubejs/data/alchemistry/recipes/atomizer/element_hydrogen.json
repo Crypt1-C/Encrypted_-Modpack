@@ -1,0 +1,12 @@
+{
+    "type": "alchemistry:atomizer",
+    "group": "minecraft:misc",
+    "input": {
+      "fluid": "mekanism:hydrogen",
+      "amount": 1000
+    },
+    "result": {
+      "item": "chemlib:element_hydrogen",
+      "count": 16
+    }
+  }

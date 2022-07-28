@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:atomizer",
+  "group": "minecraft:misc",
+  "input": {
+    "fluid": "mekanism:sulfur_trioxide",
+    "amount": 1000
+  },
+  "result": {
+    "item": "chemlib:compound_sulfur_trioxide",
+    "count": 16
+  }
+}

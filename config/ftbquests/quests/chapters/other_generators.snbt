@@ -1,0 +1,275 @@
+{
+	id: "3B4AD54169C0C51A"
+	group: "77E4751E1C15C1F0"
+	order_index: 1
+	filename: "other_generators"
+	title: "Other Generators"
+	icon: "mekanismgenerators:wind_generator"
+	subtitle: ["Wind/Gas/Heat we have them all!"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -1.0d
+			optional: true
+			id: "7862F5F35BB3E372"
+			tasks: [{
+				id: "7CF77F2285A44358"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [{
+				id: "2FAA017E9395A45D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			optional: true
+			id: "7D6D115A16139900"
+			tasks: [{
+				id: "2998DAFD82665391"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "4B187B5FE737D68D"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "hexagon"
+			optional: true
+			id: "45784DF86DD5A657"
+			tasks: [{
+				id: "3FB5119AEFF18D8D"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "587E3D13AC245435"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "hexagon"
+			optional: true
+			id: "5A077A847CCB83C3"
+			tasks: [{
+				id: "029E8810C8F724EE"
+				type: "item"
+				item: "mekanismgenerators:bio_generator"
+			}]
+			rewards: [{
+				id: "23CF54C8908E2D08"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			optional: true
+			id: "6DC7734DEF90BFF7"
+			tasks: [
+				{
+					id: "16F2A313D87EF930"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+				{
+					id: "05888410826A01EA"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+			]
+			rewards: [
+				{
+					id: "68426DB35972FB57"
+					type: "item"
+					item: "immersiveengineering:watermill"
+					count: 2
+				}
+				{
+					id: "3481A28E1CD286B2"
+					type: "item"
+					item: "kubejs:crypto_currency"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			optional: true
+			id: "595BFFA3181B7816"
+			tasks: [{
+				id: "7321C98CBAB1FF5F"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+			rewards: [{
+				id: "772BD26609367E11"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			optional: true
+			id: "6C8F69DD824FB7AB"
+			tasks: [{
+				id: "0EC689A8A7C0E5A6"
+				type: "item"
+				item: "portality:generator"
+			}]
+			rewards: [{
+				id: "3F8D21CF79D8C424"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			optional: true
+			id: "2797A9515FA12F95"
+			tasks: [{
+				id: "342BE1CB757703C5"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "541D45CEC5BEE84F"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			optional: true
+			id: "48D5F7A154D08F93"
+			tasks: [{
+				id: "3BCDA110E413D894"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "13F668AA7EB27FDD"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			optional: true
+			id: "7A152D7C049B86AA"
+			tasks: [{
+				id: "2C0FFF605859BBAA"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "498FE0FE3E63855B"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			optional: true
+			id: "6798EA708F31AB4A"
+			tasks: [{
+				id: "1C7ED23A292DEAB7"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "121608D7DA78FB45"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			optional: true
+			id: "341A01F51E91BA39"
+			tasks: [{
+				id: "56EA6D7FB9BF967F"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "6BE185AE4536AB10"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			optional: true
+			id: "3E735FAED46817D5"
+			tasks: [{
+				id: "47FA4A6C7CEEE199"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "46F9BAE01C0396D3"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			optional: true
+			id: "117B3A463FBA81AB"
+			tasks: [{
+				id: "0AB059DB2C85AB2D"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "05B92A1A49D89650"
+				type: "item"
+				item: "kubejs:crypto_currency"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			id: "4EBFE5EF3920E918"
+			tasks: [{
+				id: "0E2B65B9BEB09BD9"
+				type: "item"
+				item: "rftoolspower:blazing_generator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			id: "55117A4FF43763CE"
+			tasks: [{
+				id: "38B5183C8E3A5EDF"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+		}
+	]
+}

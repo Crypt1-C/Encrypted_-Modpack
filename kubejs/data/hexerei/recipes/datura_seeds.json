@@ -1,0 +1,39 @@
+{
+  "type": "hexerei:mixingcauldron",
+  "liquid": {
+    "fluid": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "chemlib:compound_triglyceride"
+    },
+    {
+      "item": "chemlib:compound_triglyceride"
+    },
+    {
+      "item": "chemlib:element_chlorine"
+    },
+    {
+      "item": "chemlib:element_chlorine"
+    },
+    {
+      "item": "chemlib:element_sulfur"
+    },
+    {
+      "item": "chemlib:element_sulfur"
+    },
+    {
+      "item": "chemlib:compound_cellulose"
+    },
+    {
+      "item": "chemlib:compound_cellulose"
+    }
+  ],
+  "output": {
+    "item": "occultism:datura_seeds"
+  },
+  "liquidOutput": {
+    "fluid": "minecraft:water"
+  },
+  "fluidLevelsConsumed": 2000
+}

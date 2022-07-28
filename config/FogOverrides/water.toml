@@ -1,0 +1,11 @@
+
+[water]
+	#Disable Water Fog?
+	"Disable Water Fog" = false
+	#Water Fog Starting Distance
+	#Range: 0.1 ~ 50.0
+	"Water Fog Starting Distance" = 18.0
+	#Water Fog End Distance
+	#Range: 0.1 ~ 50.0
+	"Water Fog End Distance" = 19.0
+

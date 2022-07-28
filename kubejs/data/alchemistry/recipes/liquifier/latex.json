@@ -1,0 +1,12 @@
+{
+    "type": "alchemistry:liquifier",
+    "group": "minecraft:misc",
+    "ingredient": {
+      "item": "chemlib:compound_polyvinyl_chloride"
+    },
+    "inputCount": 16,
+    "result": {
+      "fluid": "industrialforegoing:latex",
+      "amount": 1000
+    }
+  }

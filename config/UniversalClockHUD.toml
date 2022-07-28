@@ -1,0 +1,35 @@
+
+#Options that allow to disable/enable Univesal Clock and adjust it
+["Generic Config"]
+	#Whether or not Universal Clock should be displayed in the HUD.
+	clockHudEnabled = true
+	#Whether or not Universal Clock should be displayed only when in fullscreen mode.
+	clockHudOnlyInFullscreen = false
+	#Whether or not Universal Clock should be hidden when chat screen is opened.
+	clockHudHideInChat = true
+	#Whether or not Universal Clock should have background.
+	clockHudBackgroundEnabled = false
+	#Position preset for Universal Clock, default option puts it to the right of the hotbar.
+	#Allowed Values: HOTBAR_RIGHT, HOTBAR_LEFT, BOTTOM_LEFT, BOTTOM_RIGHT, TOP_LEFT, TOP_RIGHT, TOP, CUSTOM
+	clockPositionOption = "HOTBAR_RIGHT"
+	#Show in-game time instead of real-world time.
+	clockHUDIngameTime = true
+	#If true, Universal Clock will only be shown if you have vanilla clock in the inventory.
+	clockHUDRequireInventoryClock = false
+	#Whether or not displayed time should spin uncontrollably when in Nether or The End.
+	clockHUDGoCrazy = true
+	#If true, 12-hour format will be used instead of 24-hour.
+	clockHUD12HFormat = false
+
+#Adjustments which will take effect if 'CUSTOM' is chosen as HUD position preset.
+["Custom Preset Options"]
+	#Anchor point for custom preset. It is important if you want you preset to be compatible with different GUI scaling.
+	#Allowed Values: CENTER, TOP, BOTTOM, LEFT, RIGHT, TOP_LEFT, BOTTOM_LEFT, TOP_RIGHT, BOTTOM_RIGHT
+	customPresetAnchorPoint = "TOP"
+	#The offset on X axis from chosen anchor point.
+	#Range: > -2147483648
+	customPresetXOffset = 0
+	#The offset on Y axis from chosen anchor point.
+	#Range: > -2147483648
+	customPresetYOffset = 0
+

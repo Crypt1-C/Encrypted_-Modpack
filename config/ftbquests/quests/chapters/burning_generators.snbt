@@ -1,0 +1,335 @@
+{
+	id: "45853BD559D923BF"
+	group: "77E4751E1C15C1F0"
+	order_index: 0
+	filename: "burning_generators"
+	title: "Burning Generators"
+	icon: "irongenerators:infinity_generator"
+	subtitle: ["Burn And Earn"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Generators 101"
+			icon: "mekanism:upgrade_energy"
+			x: -1.5d
+			y: 0.0d
+			description: [
+				"These Genrators Burn Any Flamable Item to Generate RF/FE "
+				""
+				"Burn Time Is The same in all generators only the output (RF/t) of the generator is different"
+			]
+			size: 1.5d
+			id: "2D24B45EAF3241EB"
+			tasks: [{
+				id: "3D573FB3F07B9EA6"
+				type: "checkmark"
+				title: "Burning Generators"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "1 RF/t"
+			dependencies: ["2D24B45EAF3241EB"]
+			id: "5F836C1FBD69C06C"
+			tasks: [{
+				id: "1687BED1BD4F0C67"
+				type: "item"
+				item: "irongenerators:stone_generator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "4 RF/t"
+			dependencies: ["5F836C1FBD69C06C"]
+			id: "405E44A3F0CDA34A"
+			tasks: [{
+				id: "31A3A42D52FCCD1E"
+				type: "item"
+				item: "irongenerators:iron_generator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "16 RF/t"
+			dependencies: ["405E44A3F0CDA34A"]
+			id: "7496F527B4AACFCA"
+			tasks: [{
+				id: "0C32FA692894EC66"
+				type: "item"
+				item: "irongenerators:gold_generator"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			subtitle: "64 RF/t"
+			dependencies: ["7496F527B4AACFCA"]
+			id: "75E0FB0B16B98A61"
+			tasks: [{
+				id: "401FD71C434893BB"
+				type: "item"
+				item: "irongenerators:diamond_generator"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "64 RF/t"
+			dependencies: ["75E0FB0B16B98A61"]
+			id: "6F1C6C6738E96F7D"
+			tasks: [{
+				id: "5AF43CDBF9A50529"
+				type: "item"
+				item: "irongenerators:obsidian_generator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			subtitle: "256 RF/t"
+			dependencies: ["6F1C6C6738E96F7D"]
+			id: "7D036E97761B8E46"
+			tasks: [{
+				id: "0C89615724E05B49"
+				type: "item"
+				item: "irongenerators:netherite_generator"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			subtitle: "1024 RF/t"
+			dependencies: ["7D036E97761B8E46"]
+			id: "542FDB7E29114304"
+			tasks: [{
+				id: "18D7D9644094E094"
+				type: "item"
+				item: "irongenerators:allthemodium_generator"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			subtitle: "4096 RF/t"
+			dependencies: ["542FDB7E29114304"]
+			id: "4EE6B5EAEB4F37CE"
+			tasks: [{
+				id: "5B5E55E7E0E4E4C9"
+				type: "item"
+				item: "irongenerators:vibranium_generator"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "16384 RF/t"
+			dependencies: ["4EE6B5EAEB4F37CE"]
+			id: "787C93E386FB15C7"
+			tasks: [{
+				id: "0AE12ED36CB13108"
+				type: "item"
+				item: "irongenerators:unobtainium_generator"
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			subtitle: "65k RF/t"
+			description: ["Now This is Epic"]
+			dependencies: ["787C93E386FB15C7"]
+			size: 1.5d
+			id: "0736712B6C8757EB"
+			tasks: [{
+				id: "5C9B194781002CCF"
+				type: "item"
+				item: "irongenerators:infinity_generator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "32 RF/t"
+			dependencies: ["405E44A3F0CDA34A"]
+			id: "240273C95E1B1963"
+			tasks: [{
+				id: "44E87435CF488AFC"
+				type: "item"
+				item: "irongenerators:bronze_generator"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			subtitle: "8 RF/t"
+			dependencies: ["5F836C1FBD69C06C"]
+			id: "0926794DDFAFE5AA"
+			tasks: [{
+				id: "4EBBE5C8F5FE7EE9"
+				type: "item"
+				item: "irongenerators:copper_generator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			subtitle: "6 RF/t"
+			dependencies: ["5F836C1FBD69C06C"]
+			id: "4FC57A2E26385870"
+			tasks: [{
+				id: "4142ED869E3A8B56"
+				type: "item"
+				item: "irongenerators:lead_generator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			subtitle: "20 RF/t"
+			dependencies: ["405E44A3F0CDA34A"]
+			id: "306D6EFC66CFEC5E"
+			tasks: [{
+				id: "6D7EA2C4E758A919"
+				type: "item"
+				item: "irongenerators:osmium_generator"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "100 RF/t"
+			dependencies: ["6F1C6C6738E96F7D"]
+			id: "271160E5CF8823FA"
+			tasks: [{
+				id: "3231F2C52A0377AD"
+				type: "item"
+				item: "irongenerators:refined_obsidian_generator"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "72 RF/t"
+			dependencies: ["75E0FB0B16B98A61"]
+			id: "1B24769828C4D7B1"
+			tasks: [{
+				id: "60F51DBADEE1AED6"
+				type: "item"
+				item: "irongenerators:steel_generator"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "hexagon"
+			subtitle: "10 RF/t"
+			dependencies: ["5F836C1FBD69C06C"]
+			id: "56C3347760D27760"
+			tasks: [{
+				id: "18D1026B3CD4E24A"
+				type: "item"
+				item: "irongenerators:tin_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			subtitle: "2-5 RF/t"
+			dependencies: ["2D24B45EAF3241EB"]
+			id: "04B8C2B07F401DCF"
+			tasks: [{
+				id: "4F8E2B2A8ED71B52"
+				type: "item"
+				item: "irongenerators:certus_quartz_generator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			subtitle: "1 RF/t"
+			description: ["The Nether Generator Requires Fire On top in order to work"]
+			dependencies: ["2D24B45EAF3241EB"]
+			id: "52E6C71DDB2C01EA"
+			tasks: [{
+				id: "2B1148025005682E"
+				type: "item"
+				item: "irongenerators:netherrack_generator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "24 RF/t"
+			dependencies: ["5F836C1FBD69C06C"]
+			id: "4FAEAE9D95BE9505"
+			tasks: [{
+				id: "2525CB0BCF156273"
+				type: "item"
+				item: "irongenerators:quartz_enriched_iron_generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "48 RF/t"
+			dependencies: ["5F836C1FBD69C06C"]
+			id: "3872D90409C135A5"
+			tasks: [{
+				id: "7462C76420314C34"
+				type: "item"
+				item: "irongenerators:invar_generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "128 RF/t"
+			dependencies: ["3872D90409C135A5"]
+			id: "18C8A3F58548AD38"
+			tasks: [{
+				id: "254E54CC3F468BE0"
+				type: "item"
+				item: "irongenerators:signalum_generator"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "512 RF/t"
+			dependencies: ["18C8A3F58548AD38"]
+			id: "00A1E5C9E29D42AE"
+			tasks: [{
+				id: "381CF5E00E2FE99D"
+				type: "item"
+				item: "irongenerators:enderium_generator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			subtitle: "96 RF/t"
+			dependencies: ["75E0FB0B16B98A61"]
+			id: "7C7D3CE4003EB22E"
+			tasks: [{
+				id: "34403F65BC449F4D"
+				type: "item"
+				item: "irongenerators:uranium_generator"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			subtitle: "384 RF/t"
+			dependencies: ["7D036E97761B8E46"]
+			id: "36FC632BD0B1424E"
+			tasks: [{
+				id: "20B3278E32016918"
+				type: "item"
+				item: "irongenerators:platin_generator"
+			}]
+		}
+	]
+}

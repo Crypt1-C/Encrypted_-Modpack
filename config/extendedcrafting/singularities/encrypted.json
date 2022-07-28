@@ -1,0 +1,11 @@
+{
+  "name": "Encrypted",
+  "colors": [
+    "8224ed",
+    "520da1"
+  ],
+  "ingredient": {
+    "item": "kubejs:encrypted_ingot"
+  },
+  "inUltimateSingularity": true
+}

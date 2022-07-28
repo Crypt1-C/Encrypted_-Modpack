@@ -1,0 +1,8 @@
+
+[general]
+	#1 out of X chance for crop to skip a growth stage
+	#Range: 0 ~ 100
+	skipGrowthChance = 4
+	#If true, rain has to touch crop for it to grow faster.
+	canRainBeBlocked = true
+

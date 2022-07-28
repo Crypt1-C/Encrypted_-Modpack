@@ -1,0 +1,11 @@
+{
+  "name": "Helium",
+  "colors": [
+    "c40000",
+    "740000"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_helium"
+  },
+  "inUltimateSingularity": true
+}

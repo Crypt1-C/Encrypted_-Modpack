@@ -1,0 +1,11 @@
+{
+  "name": "Ethane",
+  "colors": [
+    "991726",
+    "5d1019"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_ethane"
+  },
+  "inUltimateSingularity": true
+}

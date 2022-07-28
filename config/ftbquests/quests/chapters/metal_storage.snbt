@@ -1,0 +1,164 @@
+{
+	id: "5B23DA84DC79F4A9"
+	group: "10DB5C1CE56FDEE6"
+	order_index: 1
+	filename: "metal_storage"
+	title: "Improved Storage"
+	icon: "ironchest:crystal_chest"
+	subtitle: ["16GB Storage"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "square"
+			optional: true
+			id: "2CF608C9516DD7DE"
+			tasks: [{
+				id: "2770EAC0D3FDC8E7"
+				type: "item"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			dependencies: ["0228A75E5E2096B0"]
+			id: "09FEA2C52C6B7AC7"
+			tasks: [{
+				id: "7C44468CBA803CED"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: [
+				"0F4A449D69F6E1D1"
+				"2CF608C9516DD7DE"
+			]
+			id: "3D7B65E63FE74769"
+			tasks: [{
+				id: "1C731ACF67E31525"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["3D7B65E63FE74769"]
+			id: "32E48CCBD32969E3"
+			tasks: [{
+				id: "7BDDD0EB5A8DF028"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			shape: "square"
+			id: "23EA06F2D09E4B3B"
+			tasks: [{
+				id: "5077DC9D8840ECE7"
+				type: "item"
+				item: "ironchest:wood_to_copper_chest_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			shape: "square"
+			dependencies: ["32E48CCBD32969E3"]
+			id: "126A10D3424E7D52"
+			tasks: [{
+				id: "027D1457BC76D772"
+				type: "item"
+				item: "ironchest:diamond_to_crystal_chest_upgrade"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["32E48CCBD32969E3"]
+			id: "0D13B1B956F1F988"
+			tasks: [{
+				id: "6E57F8F9EC6C1601"
+				type: "item"
+				item: "ironchest:diamond_to_obsidian_chest_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			shape: "square"
+			dependencies: ["23EA06F2D09E4B3B"]
+			id: "0F4A449D69F6E1D1"
+			tasks: [{
+				id: "3E276EC0E94DAAA0"
+				type: "item"
+				item: "ironchest:copper_to_iron_chest_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "0228A75E5E2096B0"
+			tasks: [{
+				id: "79DCF9042E3B691E"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["09FEA2C52C6B7AC7"]
+			id: "403491E029F3E581"
+			tasks: [{
+				id: "789454A886F9A995"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["403491E029F3E581"]
+			id: "1B7133E44336AEC0"
+			tasks: [{
+				id: "02FA38E0A7777D4A"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["1B7133E44336AEC0"]
+			id: "7FE098B7351A294A"
+			tasks: [{
+				id: "2B2057A324952967"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["1B7133E44336AEC0"]
+			id: "7826525642C82110"
+			tasks: [{
+				id: "0C02DDDE4C8BD661"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Silcon Dioxide",
+  "colors": [
+    "7f6a22",
+    "564817"
+  ],
+  "ingredient": {
+    "item": "chemlib:compound_silicon_dioxide"
+  },
+  "inUltimateSingularity": true
+}

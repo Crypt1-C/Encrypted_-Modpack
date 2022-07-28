@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:atomizer",
+  "group": "minecraft:misc",
+  "input": {
+    "fluid": "mekanism:ethene",
+    "amount": 500
+  },
+  "result": {
+    "item": "new_compound_ethylene",
+    "count": 8
+  }
+}

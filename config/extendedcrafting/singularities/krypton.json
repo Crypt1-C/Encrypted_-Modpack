@@ -1,0 +1,11 @@
+{
+  "name": "Krypton",
+  "colors": [
+    "af7426",
+    "714c1a"
+  ],
+  "ingredient": {
+    "item": "chemlib:element_krypton"
+  },
+  "inUltimateSingularity": true
+}

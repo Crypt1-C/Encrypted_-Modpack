@@ -1,0 +1,11 @@
+
+[nether]
+	#Disable Nether Fog?
+	"Disable Nether Fog" = false
+	#Nether Fog Starting Distance
+	#Range: 0.1 ~ 100.0
+	"Nether Fog Starting Distance" = 1.0
+	#Nether Fog End Distance
+	#Range: 0.1 ~ 100.0
+	"Nether Fog End Distance" = 1.7
+

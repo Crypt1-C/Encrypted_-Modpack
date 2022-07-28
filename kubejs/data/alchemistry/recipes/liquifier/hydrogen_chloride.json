@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "minecraft:misc",
+  "ingredient": {
+    "item": "chemlib:compound_hydrochloric_acid"
+  },
+  "inputCount": 16,
+  "result": {
+    "fluid": "mekanism:hydrogen_chloride",
+    "amount": 1000
+  }
+}

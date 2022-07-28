@@ -1,0 +1,60 @@
+{
+    "type": "bonsaitrees3:sapling",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ],
+    "sapling": [
+        {
+            "item": "minecraft:flowering_azalea"
+        },
+        {
+            "item": "minecraft:azalea"
+        }
+    ],
+    "drops": [
+        {
+            "rolls": 1,
+            "chance": 0.05,
+            "result": {
+                "item": "minecraft:flowering_azalea"
+            }
+        },
+        {
+            "rolls": 1,
+            "chance": 0.75,
+            "result": {
+                "item": "quark:azalea_log"
+            }
+        },
+        {
+            "rolls": 3,
+            "chance": 0.2,
+            "result": {
+                "item": "minecraft:stick"
+            }
+        },
+        {
+            "rolls": 2,
+            "chance": 0.15,
+            "result": {
+                "item": "minecraft:azalea_leaves"
+            },
+            "requiresSilkTouch": true
+        },
+        {
+            "rolls": 2,
+            "chance": 0.05,
+            "result": {
+                "item": "minecraft:flowering_azalea_leaves"
+            },
+            "requiresSilkTouch": true
+        }
+    ],
+    "compatibleSoilTags": [
+        "dirt",
+        "grass"
+    ]
+}

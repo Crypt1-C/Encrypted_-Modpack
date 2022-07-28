@@ -1,0 +1,139 @@
+{
+	id: "6B377014C2244EF9"
+	group: "77E4751E1C15C1F0"
+	order_index: 2
+	filename: "solar_power"
+	title: "Solar Power "
+	icon: "mekanismgenerators:solar_generator"
+	subtitle: ["Lux Illumina_"]
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			shape: "circle"
+			id: "2F61F62E039C0774"
+			tasks: [{
+				id: "3173410D559F7977"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["2F61F62E039C0774"]
+			optional: true
+			id: "7AF5036059B23BFF"
+			tasks: [{
+				id: "516485B4E2B4A26A"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["7AF5036059B23BFF"]
+			optional: true
+			id: "326A83D942D7F65D"
+			tasks: [{
+				id: "786273E8A859AB0A"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["326A83D942D7F65D"]
+			optional: true
+			id: "7346EC16F1A8CE46"
+			tasks: [{
+				id: "2B0037CB9E19AABA"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["7346EC16F1A8CE46"]
+			optional: true
+			id: "694B02B8081D0A8F"
+			tasks: [{
+				id: "1A5498BDC86E6198"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["694B02B8081D0A8F"]
+			optional: true
+			id: "4C9F425C00032DDB"
+			tasks: [{
+				id: "73C1B6DABB4B46F1"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["4C9F425C00032DDB"]
+			optional: true
+			id: "53A0ECE9FE1ED0F1"
+			tasks: [{
+				id: "79082487482F4329"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.0d
+			shape: "circle"
+			dependencies: ["53A0ECE9FE1ED0F1"]
+			optional: true
+			id: "0EDE1BDEA261EBAA"
+			tasks: [{
+				id: "783F6DE7682CC155"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			shape: "hexagon"
+			id: "7812E3011EFF9DEC"
+			tasks: [{
+				id: "3242F48337E73E9F"
+				type: "item"
+				item: "mekanismgenerators:solar_generator"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["7812E3011EFF9DEC"]
+			optional: true
+			id: "7A6D670FD2D16327"
+			tasks: [{
+				id: "4FF84B469232142E"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+	]
+}

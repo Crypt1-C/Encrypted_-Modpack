@@ -1,0 +1,12 @@
+{
+  "type": "alchemistry:liquifier",
+  "group": "minecraft:misc",
+  "ingredient": {
+    "item": "chemlib:element_sodium"
+  },
+  "inputCount": 16,
+  "result": {
+    "fluid": "mekanism:sodium",
+    "amount": 1000
+  }
+}
