@@ -33,45 +33,45 @@
 
 		[World.Ores.Silver]
 			#Max number of veins per chunk; set to 0 to disable.
-			#Range: 0 ~ 64
-			"Vein Count" = 4
+			#Range: 0 ~ 0
+			"Vein Count" = 0
 			#Max size of the vein.
-			#Range: 1 ~ 64
-			"Vein Size" = 8
+			#Range: 0 ~ 0
+			"Vein Size" = 0
 			#Minimum Y spawn.
-			#Range: -2032 ~ 2031
-			"Min Y" = -60
+			#Range: 0 ~ 0
+			"Min Y" = 0
 			#Maximum Y spawn.
-			#Range: -2032 ~ 2031
-			"Max Y" = 40
+			#Range: 0 ~ 0
+			"Max Y" = 0
 
 		[World.Ores.Lead]
 			#Max number of veins per chunk; set to 0 to disable.
-			#Range: 0 ~ 64
-			"Vein Count" = 6
+			#Range: 0 ~ 0
+			"Vein Count" = 0
 			#Max size of the vein.
-			#Range: 1 ~ 64
-			"Vein Size" = 8
+			#Range: 0 ~ 0
+			"Vein Size" = 0
 			#Minimum Y spawn.
-			#Range: -2032 ~ 2031
-			"Min Y" = -60
+			#Range: 0 ~ 0
+			"Min Y" = 0
 			#Maximum Y spawn.
-			#Range: -2032 ~ 2031
-			"Max Y" = 40
+			#Range: 0 ~ 0
+			"Max Y" = 0
 
 		[World.Ores.Nickel]
 			#Max number of veins per chunk; set to 0 to disable.
-			#Range: 0 ~ 64
-			"Vein Count" = 4
+			#Range: 0 ~ 0
+			"Vein Count" = 0
 			#Max size of the vein.
-			#Range: 1 ~ 64
-			"Vein Size" = 8
+			#Range: 0 ~ 0
+			"Vein Size" = 0
 			#Minimum Y spawn.
-			#Range: -2032 ~ 2031
-			"Min Y" = -40
+			#Range: 0 ~ 0
+			"Min Y" = 0
 			#Maximum Y spawn.
-			#Range: -2032 ~ 2031
-			"Max Y" = 120
+			#Range: 0 ~ 0
+			"Max Y" = 0
 
 		[World.Ores.Cinnabar]
 			#Max number of veins per chunk; set to 0 to disable.
@@ -103,17 +103,17 @@
 
 		[World.Ores.Tin]
 			#Max number of veins per chunk; set to 0 to disable.
-			#Range: 0 ~ 64
-			"Vein Count" = 6
+			#Range: 0 ~ 0
+			"Vein Count" = 0
 			#Max size of the vein.
-			#Range: 1 ~ 64
-			"Vein Size" = 9
+			#Range: 0 ~ 0
+			"Vein Size" = 0
 			#Minimum Y spawn.
-			#Range: -2032 ~ 2031
-			"Min Y" = -20
+			#Range: 0 ~ 0
+			"Min Y" = 0
 			#Maximum Y spawn.
-			#Range: -2032 ~ 2031
-			"Max Y" = 60
+			#Range: 0 ~ 0
+			"Max Y" = 0
 
 		[World.Ores.Niter]
 			#Max number of veins per chunk; set to 0 to disable.
