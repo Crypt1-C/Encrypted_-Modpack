@@ -71,8 +71,10 @@ blastFurnace.addRecipe("nickel888", <item:alltheores:nickel_ingot>, <item:therma
 furnace.removeRecipe(<item:thermal:nickel_ingot>, <item:thermal:raw_nickel>);
 furnace.removeRecipe(<item:thermal:nickel_ingot>, <item:thermal:nickel_ore>);
 furnace.removeRecipe(<item:thermal:nickel_ingot>, <item:thermal:deepslate_nickel_ore>);
+furnace.removeRecipe(<item:thermal:nickel_ingot>, <item:create:crushed_nickel_ore>);
 
 blastFurnace.removeRecipe(<item:thermal:nickel_ingot>, <item:thermal:raw_nickel>);
 blastFurnace.removeRecipe(<item:thermal:nickel_ingot>, <item:thermal:nickel_ore>);
 blastFurnace.removeRecipe(<item:thermal:nickel_ingot>, <item:thermal:deepslate_nickel_ore>);
+blastFurnace.removeRecipe(<item:thermal:nickel_ingot>, <item:create:crushed_nickel_ore>);
 
