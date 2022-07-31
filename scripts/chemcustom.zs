@@ -60,3 +60,107 @@
 
  <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_nickel");
 
+  <recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_ur", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_uranium",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "alltheores:uranium_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_uranium");
+
+ <recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_pl", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_platinum",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "alltheores:platinum_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_platinum");
+
+ <recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_osm", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_osmium",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "alltheores:osmium_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_osmium");
+
+ <recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_cop", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_copper",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "minecraft:copper_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_copper");
+ 
+ <recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_lead", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_lead",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "alltheores:lead_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_lead");
+
+<recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_tin", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_tin",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "alltheores:tin_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_tin");
+
+<recipetype:alchemistry:combiner>.addJsonRecipe("crafttweaker_custom_silv", {
+  "group": "minecraft:misc",
+   "input": [
+    {
+      "item": "chemlib:element_silver",
+      "count": 16
+    }
+  ],
+  "result": {
+    "item": "alltheores:silver_ingot"
+    }
+ }); 
+
+ <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/ingot_silver");
